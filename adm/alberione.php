@@ -1,6 +1,6 @@
 <?php $URL_ATUAL= "$_SERVER[SERVER_NAME]";
 if (strpos($URL_ATUAL, 'alberione') !== false) {
-	$alberione = mysqli_connect('mysql873.umbler.com', 'alberioneadv', 'kpyRjCLQ', 'alberione');
+	$alberione = mysqli_connect('mysql465.umbler.com', 'alberioneadv', 'kpyRjCLQ', 'alberione');
 } else {
 	$alberione = mysqli_connect('localhost', 'root', 'root', 'alberione');
 }
