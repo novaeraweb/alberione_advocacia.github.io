@@ -60,8 +60,8 @@ $titulos = listaTitulos($alberione,$ativo);
 						</div><!-- column three -->
 						<div class="column nine last">
 							<h2><a href="artigo.php?id=<?=$artigo->id?>"><?=$artigo->titulo?></a></h2>
-							<h5 class="meta-post"><?= $artigo->atuacao?></a> - <time datetime="2013-11-10"><?= $artigo->data?></time></h5>
-							<p style="text-align:justify;"><?= substr($artigo->texto, 0, strrpos(substr($artigo->texto, 0, 160), ' ')) . '...'; ?> <a href="artigo.php?id=<?=$artigo->id?>">[ leia o artigo completo ]</a></p>
+							<h5 class="meta-post"><?=$artigo->atuacao?></a> - <time datetime="2013-11-10"><?=$artigo->data?></time></h5>
+							<p style="text-align:justify;"><?=substr($artigo->texto, 0, strrpos(substr($artigo->texto, 0, 160), ' ')) . '...'; ?> <a href="artigo.php?id=<?=$artigo->id?>">[ leia o artigo completo ]</a></p>
 
 							<p></p>
 						</div><!-- column nine -->

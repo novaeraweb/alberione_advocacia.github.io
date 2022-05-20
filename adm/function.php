@@ -1,7 +1,6 @@
 <?php 
 function listaArtigos ($alberione, $ativo) {
- 	$query = "select a.* FROM artigos a WHERE ativo = 'sim' ORDER BY id DESC";
-	$query = mysqli_real_escape_string($alberione, $query);
+ 	$query = "SELECT a.* FROM artigos a WHERE a.ativo = 'sim' ORDER BY id DESC";
  	$resultado = mysqli_query($alberione, $query);
  	$total_artigos= mysqli_num_rows($resultado);
  	$artigos = array();
@@ -18,18 +17,17 @@ function listaArtigos ($alberione, $ativo) {
  		array_push($artigos, $artigo);
  	}
  	return $artigos;
+	return $total_artigos;
 }
 function totalArtigos ($alberione, $ativo) {
- 	$query = "select a.* FROM artigos a WHERE ativo = 'sim' ";
-	$query = mysqli_real_escape_string($alberione, $query);
+ 	$query = "select a.* FROM artigos a WHERE a.ativo = 'sim' ";
  	$resultado = mysqli_query($alberione, $query);
  	$total_artigos= mysqli_num_rows($resultado);
  	return $total_artigos;
 }
 function listaArtigo ($alberione, $id, $ativo) {
 	$id = mysqli_real_escape_string($alberione, $id);
- 	$query = "select a.* FROM artigos a WHERE id = $id AND ativo = 'sim' ";
-	$query = mysqli_real_escape_string($alberione, $query);
+ 	$query = "select a.* FROM artigos a WHERE a.id = $id AND a.ativo = 'sim' ";
  	$resultado = mysqli_query($alberione, $query);
  	$total_artigo= mysqli_num_rows($resultado);
  	$lista_artigo = array();
@@ -50,7 +48,7 @@ function listaArtigo ($alberione, $id, $ativo) {
 
 
 function listaTitulos ($alberione, $ativo) {
- 	$query = "select a.* FROM artigos a WHERE ativo = 'sim' ";
+ 	$query = "select a.* FROM artigos a WHERE a.ativo = 'sim' ";
  	$resultado = mysqli_query($alberione, $query);
  	$total_titulos= mysqli_num_rows($resultado);
  	$titulos = array();
@@ -69,7 +67,7 @@ function listaTitulos ($alberione, $ativo) {
  	return $titulos;
 }
 function listaArtigosRelacionados ($alberione, $ativo, $id) {
- 	$query = "select a.* FROM artigos a WHERE id != $id AND ativo = 'sim' ";
+ 	$query = "select a.* FROM artigos a WHERE a.id != $id AND a.ativo = 'sim' ";
  	$resultado = mysqli_query($alberione, $query);
  	$total_artigos= mysqli_num_rows($resultado);
  	$artigos = array();
@@ -88,6 +86,6 @@ function listaArtigosRelacionados ($alberione, $ativo, $id) {
  	return $artigos;
 }
 $query_rs_artigos = "SELECT * FROM artigos WHERE ativo='sim' ORDER BY id";
-$rs_artigos = mysqli_query($alberione,$query_rs_artigos) or die(mysqli_error());
+$rs_artigos = mysqli_query($alberione,$query_rs_artigos) or die(mysqli_error($alberione));
 $row_rs_artigos = mysqli_fetch_assoc($rs_artigos);
 $totalRows_rs_artigos = mysqli_num_rows($rs_artigos);
