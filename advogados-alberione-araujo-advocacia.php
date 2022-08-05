@@ -87,8 +87,8 @@
 				<section class="row section">
 					<div class="row-content buffer even clear-after">	
 						<div class="column six push-six last-special">
-							<h2>Ana Cláudia Leite Macoris <span style="font-size:0.5em;color:#333"> | PARCEIRA</span></h2>
-							<p style="text-align:justify;">Advogada inscrita na OAB SP sob o nº 439155, graduada pela Instituição Toledo de Ensino de Botucatu em 2018. </p>
+							<h2>Josué <span style="font-size:0.5em;color:#333"> | PARCEIRO</span></h2>
+							<p style="text-align:justify;">Josué advogado.</p>
 							<p><em><a href="mailto:advocacia@alberione.com.br" target="_blank">advocacia@alberione.com.br</a></em></p>
 						</div>							
 						<div class="side-mockup left-mockup animation">
@@ -96,7 +96,20 @@
 						</div>	
 
 					</div>	
-				</section>	
+				</section>
+
+				<section class="row section">
+					<div class="row-content buffer even clear-after">	
+						<div class="column six">
+							<h2>Gildo</h2>
+							<p style="text-align:justify;">Gildo advogado</p>
+							<p><em><a href="mailto:advocacia@alberione.com.br" target="_blank">advocacia@alberione.com.br</a></em></p>
+						</div>
+						<div class="side-mockup right-mockup animation">
+							<figure><div><img src="img/hellon-asperti-advogado.jpg" alt=""></div></figure>
+						</div>
+					</div>	
+				</section>
 
 				<section class="row section call-to-action">
 					<div class="row-content buffer even animation">
