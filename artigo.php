@@ -18,7 +18,7 @@ $rs_artigo = mysqli_query($alberione,$query_rs_artigo) or die(mysqli_error($albe
 $row_rs_artigo = mysqli_fetch_assoc($rs_artigo);
 ?>
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">

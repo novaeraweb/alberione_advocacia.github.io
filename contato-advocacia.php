@@ -1,28 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<meta name="description" content="Advocacia Botucatu/SP - Contato">
-		<style type="text/css">@-ms-viewport{width: device-width;}</style>
-		<title>Alberione Araújo Advogados | Contato</title>
-		<link rel="stylesheet" href="css/layers.min.css" media="screen">
-		<link rel="stylesheet" href="css/font-awesome.min.css" media="screen"> 
-		<link rel="stylesheet" href="style.css" media="screen">
-		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
-		<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-		<![endif]-->
-		<link rel="icon" href="favicon.ico">
-		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-		<link rel="apple-touch-icon" sizes="76x76" href="img/apple-touch-icon-76x76.png">
-		<link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120x120.png">
-		<link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png">			
-	</head>
-
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="Contato Alberione Advocacia Preencha nosso formulário que entraremos em contato o mais breve.">
+<style type="text/css">@-ms-viewport{width: device-width;}</style>
+<title>Alberione Araújo Advogados | Contato</title>
+<link rel="stylesheet" href="css/layers.min.css" media="screen">
+<link rel="stylesheet" href="css/font-awesome.min.css" media="screen"> 
+<link rel="stylesheet" href="style.css" media="screen">
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<link rel="author" href="https://www.novaeraweb.com.br"/>
+<link rel="canonical" href="https://alberione.com.br/contato-advocacia.php" />
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Alberione Araújo Advogados | Contato" />
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://alberione.com.br/contato-advocacia.php"/>
+<meta property="og:image" content="https://alberione.com.br/images/logo-alberione.png" />
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="800">
+<meta property="og:image:height" content="600">
+<meta property="og:description" content="Alberione Araujo Advocacia - Possuímos equipes preparada para auxilio na busca de seus direitos! Profissionais das áreas trabalhista, previdenciária, tributária e em direito público, atendendo pessoas físicas e jurídicas!" />
+<meta property="og:site_name" content="Advocacia Alberione Araújo | Botucatu/SP"/>
+<meta property="fb:admins" content="alberionearaujoadvocacia"/>
+<link rel="icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png">			
+</head>
 	<body class="page">
 	<?php require_once "header.php"?>
-
 		<main role="main">
 			<div id="intro-wrap" style="margin-top: 110px;height: 19.333em;">
 				<div id="intro" class="preload darken more-button">					

@@ -415,6 +415,14 @@ header.fixed-header {
     -o-transform: none !important;
     transform: none !important;
 }
+header.fixed-header img{
+    width:70% ;
+}
+
+
+header.fixed-header .reset{
+   margin-top: 10px;
+}
 
 #brand {
     float: left;
@@ -3664,6 +3672,9 @@ figure {
 video {
 max-width:100%;
 }
+
+
+
     header {
         position: relative !important;
         background-color: #fff !important;
