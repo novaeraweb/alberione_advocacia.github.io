@@ -47,9 +47,68 @@
 <link rel="stylesheet" href="css/layers.min.css" media="screen">
 <link rel="stylesheet" href="css/font-awesome.min.css" media="screen"> 
 <link rel="stylesheet" href="style.css" media="screen">
-<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>	
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+<style type="text/css">
+	  .w3-modal{
+    position: absolute;
+    z-index: 15;
+    padding: 1.5em 2em;
+    background-color:#2C5C7D;
+    color: #2C5C7D;
+    opacity: 0.9;
+    width: 100%;
+    height:100%;
+  }
+
+  .w3-container{
+padding: 0.0em;
+text-align: center;
+color:#f9f9f9;
+width: 154%;
+cursor: pointer;
+font-size: 3em;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-weight: 300;
+position: relative;
+
+  }
+
+  .w3-container p{
+    margin-top: 120px;
+  }
+  .form {
+	position: relative;
+	padding-top:10px;
+	width: 60%;
+	font-size: 1.2em;
+	font-weight: 500;
+	height:300px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #f9f9f9;
+	box-shadow: 1px 1px 1px #3c3c3c;
+}
+
+</style>	
 </head>
 	<body class="page">
+     <!-- Trigger/Open the Modal -->
+      <!-- The Modal -->
+      <div id="id01" class="w3-modal">
+        <div class="w3-modal-content">
+          <div class="w3-container">
+            <span onclick="document.getElementById('id01').style.display='none'"
+            class="w3-button w3-display-topright">&times;</span>
+            </div>
+            <div class="form">
+            	<p>ATENÇÃO! NÃO CAI EM GOLPE!</p>
+            <p>O escritório ALBERIONE ADVOGADOS <strong>não solicita</strong><br>pagamento para liberação de precatório.<br> Mais informações: (14) 9-9769-8522</strong></p>
+          </div>
+        </div>
+      </div> 
 	<?php require_once "header.php"  ?>
 		<main role="main"><?php  require_once "alerta.php" ?>
 			<div id="intro-wrap">
@@ -132,6 +191,17 @@ $(function(){
 setTimeout(function() {
 $('#autofade').fadeOut('slow');}, 7000);
 });
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
 </script>
 <script src="js/plugins.js"></script>
 <script src="js/beetle.js"></script>

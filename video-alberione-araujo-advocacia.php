@@ -66,7 +66,7 @@ if($apiData){
 <body class="page">
 <?php require_once "header.php"?>
 <main role="main">
-	<div id="intro-wrap" class="tributario">
+	<div id="intro-wrap" class="video">
 		<div id="intro" class="preload darken" data-autoplay="5000" data-navigation="true" data-pagination="true" data-transition="fadeUp">					
 			<div class="intro-item">
 				<div class="caption titulo">
@@ -87,7 +87,7 @@ if($apiData){
 							echo '
 							
 							<div class="yvideo-box" style="margin: 0 auto;margin-bottom:80px;text-align:center;"> 
-								<iframe class="lazy" width="200" height="250" src="https://www.youtube.com/embed/'.$item->id->videoId.'" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<iframe class="lazy" width="200" height="250" src="https://www.youtube.com/embed/'.$item->id->videoId.'" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</div><hr>'; 
 						} 
 					} 
@@ -109,16 +109,6 @@ if($apiData){
 </div><!-- id-main -->
 </main><!-- main -->
 <?php require_once "footer.php" ?>
-<style type="text/css">
-.yvideo-box {
-  width: 50%;
-  height:300px;
-}
-.fluidvids-elem {
-  height:auto;
-    height:300px;
-}
-</style>
 <script>
 // Set the options globally
 // to make LazyLoad self-initialize
