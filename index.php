@@ -5,21 +5,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="Alberione Araujo Advocacia - Possuímos equipes preparada para auxilio na busca de seus direitos! Profissionais das áreas trabalhista, previdenciária, tributária e em direito público, atendendo pessoas físicas e jurídicas!">
 <style type="text/css">@-ms-viewport{width: device-width;}</style>
-<title>Alberione Araújo Advocacia | Advogado Botucatu/SP</title>
+<title>Advocacia Alberione Araújo | Advogado Botucatu/SP</title>
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 <![endif]-->
 <link rel="author" href="https://www.novaeraweb.com.br"/>
 <link rel="canonical" href="https://alberione.com.br" />
 <meta property="og:locale" content="pt_BR">
-<meta property="og:title" content="Alberione Araújo Advocacia | Advogado Botucatu/SP" />
+<meta property="og:title" content="Advocacia Alberione Araújo | Advogado Botucatu/SP" />
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="https://alberione.com.br"/>
 <meta property="og:image" content="https://alberione.com.br/images/logo-alberione.png" />
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="800">
 <meta property="og:image:height" content="600">
-<meta property="og:description" content="Alberione Araujo Advocacia - Possuímos equipes preparada para auxilio na busca de seus direitos! Profissionais das áreas trabalhista, previdenciária, tributária e em direito público, atendendo pessoas físicas e jurídicas!" />
+<meta property="og:description" content="Alberione Araujo Advocacia - Possuímos equipe preparada para auxílio na busca de seus direitos! Profissionais da área trabalhista, previdenciária, tributária e em direito público, atendendo pessoas físicas e jurídicas." />
 <meta property="og:site_name" content="Advocacia Alberione Araújo | Botucatu/SP"/>
 <meta property="fb:admins" content="alberionearaujoadvocacia"/>
 <link rel="icon" href="favicon.ico">
@@ -47,7 +47,9 @@
 <link rel="stylesheet" href="css/layers.min.css" media="screen">
 <link rel="stylesheet" href="css/font-awesome.min.css" media="screen"> 
 <link rel="stylesheet" href="style.css" media="screen">
-<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
 <style type="text/css">
 	  .w3-modal{
     position: absolute;
@@ -91,12 +93,9 @@ position: relative;
 	background-color: #f9f9f9;
 	box-shadow: 1px 1px 1px #3c3c3c;
 }
-
 </style>	
 </head>
 	<body class="page">
-     <!-- Trigger/Open the Modal -->
-      <!-- The Modal -->
       <div id="id01" class="w3-modal">
         <div class="w3-modal-content">
           <div class="w3-container">
@@ -173,13 +172,13 @@ position: relative;
 						</div><!-- grid-items -->					
 					</div>	
 				</section>																
-				<section class="row section call-to-action">
+<section class="row section call-to-action">
 <div class="row-content buffer even animation" style="padding-right:0;">
-						<p><strong>Como podemos auxiliar?</strong></p>
-						<p>Possuímos equipes preparada para auxilio na busca de seus direitos!<br>Profissionais das áreas trabalhista, previdenciária, tributária e em direito público, atendendo pessoas físicas e jurídicas!</p><br><br>
-						<a class="button red" href="contato-advocacia.php">Entre em contato</a>
-					</div>
-				</section>		
+<p><strong>Como podemos auxiliar?</strong></p>
+<p>Possuímos equipes preparada para auxilio na busca de seus direitos!<br>Profissionais das áreas trabalhista, previdenciária, tributária e em direito público, atendendo pessoas físicas e jurídicas!</p><br><br>
+<a class="button red" href="contato-advocacia.php">Entre em contato</a>
+</div>
+</section>		
 <?php require_once "mapa.php" ?>								
 </div><!-- id-main -->
 </main><!-- main -->
@@ -199,7 +198,7 @@ var modal = document.getElementById('id01');
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == modal) {
-    modal.style.display = "none";
+modal.style.display = "none";
   }
 }
 </script>

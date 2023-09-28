@@ -1,7 +1,7 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www.alberione.com.br$
-RewriteRule (.*) https://alberione.com.br/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^alberione.com.br$
+RewriteRule (.*) https://www.alberione.com.br/$1 [R=301,L]
 RewriteCond %{HTTPS} !=on
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 </IfModule>
