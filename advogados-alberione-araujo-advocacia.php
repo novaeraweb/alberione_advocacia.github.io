@@ -108,7 +108,7 @@
 					</div>	
 				</section>
 
-				<section class="row section">
+<!-- 				<section class="row section">
 					<div class="row-content buffer even clear-after">	
 						<div class="column six">
 							<h2>Gildo</h2>
@@ -119,7 +119,7 @@
 							<figure><div><img src="img/hellon-asperti-advogado.jpg" alt=""></div></figure>
 						</div>
 					</div>	
-				</section>
+				</section> -->
 
 				<section class="row section call-to-action">
 <div class="row-content buffer even animation" style="padding-right:0;">
