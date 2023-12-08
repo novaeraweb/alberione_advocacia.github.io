@@ -94,7 +94,7 @@
 					</div>	
 				</section>	
 
-				<section class="row section">
+<!-- 				<section class="row section">
 					<div class="row-content buffer even clear-after">	
 						<div class="column six push-six last-special">
 							<h2>Josué <span style="font-size:0.5em;color:#333"> | PARCEIRO</span></h2>
@@ -106,7 +106,7 @@
 						</div>	
 
 					</div>	
-				</section>
+				</section> -->
 
 <!-- 				<section class="row section">
 					<div class="row-content buffer even clear-after">	
