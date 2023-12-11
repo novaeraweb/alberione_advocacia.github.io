@@ -418,6 +418,7 @@ header.fixed-header .reset{
 #brand {
     float: left;
     clear: none;
+  margin-left: -50px;
 }
 
 #brand a,
@@ -3681,7 +3682,6 @@ figure {
 video {
 max-width:100%;
 }
-
 
     header {
         position: relative !important;
