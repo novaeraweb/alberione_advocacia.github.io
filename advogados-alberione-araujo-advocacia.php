@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="css/layers.min.css" media="screen">
 <link rel="stylesheet" href="css/font-awesome.min.css" media="screen"> 
 <link rel="stylesheet" href="style.css" media="screen">
-<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 <![endif]-->
@@ -32,8 +32,8 @@
 <link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120x120.png">
 <link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png">			
 </head>
-	<body class="page">
-	<?php require_once "header.php"?>
+<body class="page">
+<?php require_once "header.php"?>
 		<main role="main">
 			<div id="intro-wrap" class="equipe">
 				<div id="intro" class="preload darken" data-autoplay="5000" data-navigation="true" data-pagination="true" data-transition="fadeUp">					
@@ -41,95 +41,85 @@
 						<div class="caption titulo">
 							<h1 style="color:#f9f9f9;text-shadow:1px 0.2px 1px black!important;">Equipe</h1>
 						</div><!-- caption -->		
-					</div>														
-															
-				</div><!-- intro -->
-
-			</div><!-- intro-wrap -->
-
+					</div>																					
+				</div>
+			</div>
 			<div id="main">
-
 				<section class="row section">
 					<div class="row-content buffer even">
 						<p>Nosso escritório possui profissionais experientes nas mais diversas áreas da advocacia, promovendo serviços para pessoas físicas e jurídicas.</p>
 						<p>Possuímos parceiros e correspondentes em todas as cidades do Estado de São Paulo, o que nos permite um melhor atendimento dos nossos clientes no interior paulista</p>
 					</div>
 				</section>
-
 				<section class="row section">
 					<div class="row-content buffer even clear-after">	
 						<div class="column six">
-							<h2>Alberione Araújo da Silva</h2>
-							<p style="text-align:justify;">Advogado inscrito na OAB SP sob o nº 297034, graduado pela Faculdade de Direito de Bauru em 2008. Especialista em Direito do Trabalho e Processo do Trabalho pela Escola Superior de Advocacia (2016) Graduando em Ciências Contábeis (UNIP).</p>
+							<h2>Alberione Araújo da Silva<br><span style="font-size:0.5em;color:#333">| Advogado</span></h2>
+							<p style="text-align:justify;">Graduado em Direito pela Faculdade de Direito de Bauru (2008). Especialista em Direito do Trabalho e Processo do Trabalho pela Escola Superior de Advocacia. Graduado em Ciências Contábeis (UNIP). Pós graduando em Direito Tributário USP. Experiência Direito Tributário e Trabalhista.</p>
 							<p><em><a href="mailto:consultoria@alberione.com.br" target="_blank">consultoria@alberione.com.br</a></em></p>
 						</div>
 						<div class="side-mockup right-mockup animation">
-							<figure><div><img src="img/alberione-araujo-advogado.jpg" alt=""></div></figure>
+							<figure><div><img src="img/alberione-araujo-advogado.jpg" alt="Imagem do Advogado Alberione Araujo"></div></figure>
 						</div>
 					</div>	
 				</section>	
-
 				<section class="row section">
 					<div class="row-content buffer even clear-after">	
 							<div class="column six push-six last-special">
-							<h2>Rodolfo Rubens Martins Corrêa <span style="font-size:0.5em;color:#333">| PARCEIRO</span></h2>
+							<h2>Rodolfo Rubens Martins Corrêa<br><span style="font-size:0.5em;color:#333">| Parceiro</span></h2>
 							<p style="text-align:justify;">Advogado inscrito na OAB SP 249476, Mestre em Direito Comercial pela PUC-SP. MBA em Direito Empresarial pela FGV-GVLaw. Pós-graduando em Direito Tributário pelo IBET. Ex-professor de Direito na UNESP. Advogado. (Disciplinas que leciona: Direito Empresarial; Direito Tributário; Teoria Geral do Direito; Direito Internacional; Direito Civil: Parte Geral e Direito das Obrigações.</p>
 							<p><em><a href="mailto:rodolforubenscorrea@gmail.com" target="_blank">rodolforubenscorrea@gmail.com</a></em></p>
 						</div>							
 						<div class="side-mockup left-mockup animation">
-							<figure><div><img src="img/rodolfo-rubens-martins.jpg" alt=""></div></figure>
+							<figure><div><img src="img/rodolfo-rubens-martins.jpg" alt="Imagem do Advogado Rodolfo Corrêa"></div></figure>
 						</div>	
 					</div>	
 				</section>					
 				<section class="row section">
 					<div class="row-content buffer even clear-after">	
 						<div class="column six">
-							<h2>Hellon Asperti</h2>
+							<h2>Hellon Asperti<br><span style="font-size:0.5em;color:#333"> | Advogado</span></h2>
 							<p style="text-align:justify;">Advogado inscrito na OAB SP 406.811, graduado pela Faculdade Marechal Rondon em 2018, especialista em Direito Administrativo.</p>
 							<p><em><a href="mailto:advocacia@alberione.com.br" target="_blank">advocacia@alberione.com.br</a></em></p>
 						</div>
 						<div class="side-mockup right-mockup animation">
-							<figure><div><img src="img/hellon-asperti-advogado.jpg" alt=""></div></figure>
+							<figure><div><img src="img/hellon-asperti-advogado.jpg" alt="Imagem do Advogado Hellon Asperti"></div></figure>
 						</div>
 					</div>	
 				</section>	
-
-<!-- 				<section class="row section">
+ 				<section class="row section">
 					<div class="row-content buffer even clear-after">	
 						<div class="column six push-six last-special">
-							<h2>Josué <span style="font-size:0.5em;color:#333"> | PARCEIRO</span></h2>
-							<p style="text-align:justify;">Josué advogado.</p>
-							<p><em><a href="mailto:advocacia@alberione.com.br" target="_blank">advocacia@alberione.com.br</a></em></p>
+							<h2>Josué de Souza Marcelino<br><span style="font-size:0.5em;color:#333"> | Advogado</span></h2>
+							<p style="text-align:justify;">Graduado pela Faculdade de Direito de Bauru. Experiência Criminal.</p>
+							<p><em><a href="mailto:marcelino-max@hotmail.com" target="_blank">marcelino-max@hotmail.com</a></em></p>
 						</div>							
 						<div class="side-mockup left-mockup animation">
-							<figure><div><img src="img/img.jpg" alt=""></div></figure>
+							<figure><div><img src="img/josue-marcelino.jpg" alt="Imagem do Advogado Josué Marcelino"></div></figure>
 						</div>	
 
 					</div>	
-				</section> -->
-
-<!-- 				<section class="row section">
-					<div class="row-content buffer even clear-after">	
-						<div class="column six">
-							<h2>Gildo</h2>
-							<p style="text-align:justify;">Gildo advogado</p>
-							<p><em><a href="mailto:advocacia@alberione.com.br" target="_blank">advocacia@alberione.com.br</a></em></p>
-						</div>
-						<div class="side-mockup right-mockup animation">
-							<figure><div><img src="img/hellon-asperti-advogado.jpg" alt=""></div></figure>
-						</div>
-					</div>	
-				</section> -->
-
+				</section>
+<!-- <section class="row section">
+<div class="row-content buffer even clear-after">	
+<div class="column six">
+<h2>Gildo</h2>
+<p style="text-align:justify;">Gildo advogado</p>
+<p><em><a href="mailto:advocacia@alberione.com.br" target="_blank">advocacia@alberione.com.br</a></em></p>
+</div>
+<div class="side-mockup right-mockup animation">
+<figure><div><img src="img/hellon-asperti-advogado.jpg" alt=""></div></figure>
+</div>
+</div>	
+</section> -->
 				<section class="row section call-to-action">
-<div class="row-content buffer even animation" style="padding-right:0;">
+					<div class="row-content buffer even animation" style="padding-right:0;">
 						<p><strong>Procurando profissionais experientes?</strong></p><br><br>
 						<a class="button red" href="contato-advocacia.php">Entre em contato</a>
 					</div>
 				</section>				
-
-			</div><!-- id-main -->
-		</main><!-- main -->
+			</div>
+		</main>
 <?php require_once "footer.php"?>
 <script src="https://code.jquery.com/jquery.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>		
