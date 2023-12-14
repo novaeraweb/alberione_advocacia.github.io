@@ -96,7 +96,7 @@ position: relative;
 </style>	
 </head>
 	<body class="page">
-      <div id="id01" class="w3-modal">
+<!--       <div id="id01" class="w3-modal">
         <div class="w3-modal-content">
           <div class="w3-container">
             <span onclick="document.getElementById('id01').style.display='none'"
@@ -107,7 +107,7 @@ position: relative;
             <p>O escritório ALBERIONE ADVOGADOS <strong>não solicita</strong><br>pagamento para liberação de precatório.<br> Mais informações: (14) 9-9769-8522</strong></p>
           </div>
         </div>
-      </div> 
+      </div>  -->
 	<?php require_once "header.php"  ?>
 		<main role="main"><?php  require_once "alerta.php" ?>
 			<div id="intro-wrap">
