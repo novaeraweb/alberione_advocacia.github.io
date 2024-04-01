@@ -15,10 +15,8 @@
 <div class="widget column three">
 <h4>Áreas de atuação</h4>
 <ul class="plain">
-<li><a href="direito-previdenciario-alberione-araujo-advocacia.php">Direito Previdênciário</a></li>
-<li><a href="direito-trabalhista-alberione-araujo-advocacia.php">Direito trabalhista</a></li>
+<li><a href="direito-trabalhista-alberione-araujo-advocacia.php">Direito Trabalhista</a></li>
 <li><a href="direito-tributario-alberione-araujo-advocacia.php">Direito Tributário</a></li>
-<li><a href="servidor-publico-botucatu.php">Servidor Público</a></li>
 </ul>
 </div>								
 <div class="widget column three">
@@ -28,6 +26,7 @@
 <li><a href="advogados-alerione-araujo-advocacia.php">Rodolfo Rubens Martins Corrêa</a></li>
 <li><a href="advogados-alerione-araujo-advocacia.php">Hellon Asperti</a></li>
 <li><a href="advogados-alerione-araujo-advocacia.php">Josué de Souza Marcelino</a></li>
+<li><a href="advogados-alerione-araujo-advocacia.php">Gildo Tácito Junior</a></li>
 </ul>	
 </div>
 <div class="widget meta-social column three">
@@ -40,7 +39,7 @@
 </div>														
 </section><!-- top-footer -->
 <section id="bottom-footer">
-<p class="keep-left">&copy; <?=date("Y")?> Alberione Advocacia | Botucatu/SP</p>
+<p class="keep-left">&copy; <?=date("Y")?> Alberione Advgados | Botucatu/SP</p>
 <p class="keep-right">Site desenvolvido por <a href="https://www.novaeraweb.com.br" target="_blank" rel="noopener" rel="noreferrer">NovaEraWeb</a></p>
 </section><!-- bottom-footer -->			
 </div><!-- row-content -->	

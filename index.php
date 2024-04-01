@@ -93,7 +93,8 @@ position: relative;
 	background-color: #f9f9f9;
 	box-shadow: 1px 1px 1px #3c3c3c;
 }
-</style>	
+</style>
+<?php require_once "ads.php" ?>	
 </head>
 	<body class="page">
 <!--       <div id="id01" class="w3-modal">
@@ -146,23 +147,8 @@ position: relative;
 								<p class="text-g">Nosso escritório possui experiencia na área trabalhista, promovendo serviços para pessoas físicas e jurídicas em diversos assuntos do âmbito trabalhista.</p><a class="button red" href="direito-trabalhista-alberione-araujo-advocacia.php">Saiba Mais</a>
 							</div>
 						</div>
-						<div class="column" style="height:190px;margin-bottom:60px;">
-							<div class="small-icon red" style="background-image: url(img/icon-direito-previdenciario.png);"></i></div>
-							<div class="small-icon-text clear-after" style="text-align:left;">
-								<h4>Direito Previdenciário</h4>
-								<p class="text-g">Visamos por meio de processos administrativos ou ações judiciais a concessão de benefícios previdenciários junto ao INSS.</p><a class="button red" href="direito-previdenciario-alberione-araujo-advocacia.php">Saiba Mais</a>
-							</div>
-						</div>
-						<div class="column" style="height:190px;margin-bottom:60px;">
-							<div class="small-icon red" style="background-image: url(img/icon-servidor-publico.png);"></i></div>
-							<div class="small-icon-text clear-after" style="text-align:left;">
-								<h4>Servidor Público</h4>
-								<p class="text-g">Patrocinamos ações judiciais de funcionários públicos em face da fazenda pública postulando diversos direitos sonegados pelo Estado.</p><a class="button red" href="servidor-publico-alberione-araujo-advocacia.php">Saiba Mais</a>
-							</div>
-						</div>
 					</div>
 				</section>	
-				
 				<section class="row section banner">
 					<div class="row-content buffer even clear-after" style="overflow:hidden;padding-top: 0;">					
 						<div class="section-title" style="padding-top: 0;"> <!-- <h3 style="color:#f9f9f9;text-shadow:1px 1px #2C5C7D ;font-size:1.8em; background-color:rgba(0,0,0,0.4);padding: 2%;overflow:hidden;" >Acesse nosso canal<br> e acompanhe os vídeos</h3> --> </div>

@@ -47,7 +47,8 @@
 <link rel="manifest" href="/manifest.json">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">		
+<meta name="theme-color" content="#ffffff">	
+<?php require_once "ads.php" ?>	
 </head>
 	<body class="page">
 	<?php require_once "header.php"?>
