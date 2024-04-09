@@ -53,7 +53,7 @@
 <style type="text/css">
 	  .w3-modal{
     position: absolute;
-    z-index: 15;
+    z-index:9999;
     padding: 1.5em 2em;
     background-color:#2C5C7D;
     color: #2C5C7D;
@@ -81,18 +81,7 @@ position: relative;
   .w3-container p{
     margin-top: 120px;
   }
-  .form {
-	position: relative;
-	padding-top:10px;
-	width: 60%;
-	font-size: 1.2em;
-	font-weight: 500;
-	height:300px;
-	text-align: center;
-	margin: 0 auto;
-	background-color: #f9f9f9;
-	box-shadow: 1px 1px 1px #3c3c3c;
-}
+
 </style>
 <?php require_once "ads.php" ?>	
 </head>

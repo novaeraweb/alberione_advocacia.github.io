@@ -454,7 +454,17 @@ nav a {
 #brand a img#retina-logo {
     display: none;
 }
-
+  .form {
+    position: relative;
+    padding-top:10px;
+    font-size: 1.2em;
+    font-weight: 500;
+    height:300px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    box-shadow: 1px 1px 1px #3c3c3c;
+}
 /* retina logo */
 @media only screen and (-moz-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
@@ -4356,6 +4366,20 @@ max-width:100%;
 
 @media handheld, only screen and (max-width:48em) {
 
+          .form {
+    position: relative;
+    padding:50px 10px;
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: 500;
+    height:320px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    box-shadow: 1px 1px 1px #3c3c3c;
+    z-index: 9999;
+}
+
     .iphone-slider {
         min-height: 600px;
         width: 300px;
@@ -4618,6 +4642,8 @@ max-width:100%;
 }
 
 @media handheld, only screen and (min-width:48em) {
+
+
 
     .owl-theme .owl-controls .owl-buttons div {
         margin-top: -25px;
