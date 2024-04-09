@@ -97,7 +97,7 @@ position: relative;
 <?php require_once "ads.php" ?>	
 </head>
 	<body class="page">
-<!--       <div id="id01" class="w3-modal">
+       <div id="id01" class="w3-modal">
         <div class="w3-modal-content">
           <div class="w3-container">
             <span onclick="document.getElementById('id01').style.display='none'"
@@ -105,10 +105,10 @@ position: relative;
             </div>
             <div class="form">
             	<p>ATENÇÃO! NÃO CAI EM GOLPE!</p>
-            <p>O escritório ALBERIONE ADVOGADOS <strong>não solicita</strong><br>pagamento para liberação de precatório.<br> Mais informações: (14) 9-9769-8522</strong></p>
+            <p>Esteja ciente que o escritório ALBERIONE ADVOGADOS <strong>não solicita</strong><br>antecipação de créditos a serem recebidos. Se receber esse tipo de mensagem é Fraude!<br><span style="font-size:0.8em;color:#3c3c3c;"> Mais informações: (14) 9-9769-8522</span></strong></p>
           </div>
         </div>
-      </div>  -->
+      </div>
 	<?php require_once "header.php"  ?>
 		<main role="main"><?php  require_once "alerta.php" ?>
 			<div id="intro-wrap">
