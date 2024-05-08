@@ -75,18 +75,6 @@
 							<figure><div><img src="img/rodolfo-rubens-martins.jpg" alt="Imagem do Advogado Rodolfo Corrêa"></div></figure>
 						</div>	
 					</div>	
-				</section>					
-				<section class="row section">
-					<div class="row-content buffer even clear-after">	
-						<div class="column six">
-							<h2>Hellon Asperti<br><span style="font-size:0.5em;color:#333"> | Advogado</span></h2>
-							<p style="text-align:justify;">Advogado inscrito na OAB SP 406.811, graduado pela Faculdade Marechal Rondon em 2018, especialista em Direito Administrativo.</p>
-							<p><em><a href="mailto:advocacia@alberione.com.br" target="_blank">advocacia@alberione.com.br</a></em></p>
-						</div>
-						<div class="side-mockup right-mockup animation">
-							<figure><div><img src="img/hellon-asperti-advogado.jpg" alt="Imagem do Advogado Hellon Asperti"></div></figure>
-						</div>
-					</div>	
 				</section>	
  				<section class="row section">
 					<div class="row-content buffer even clear-after">	
