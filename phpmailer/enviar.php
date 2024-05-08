@@ -40,7 +40,7 @@ if(isset($recaptcha_response)){
         $mail->Host = "smtp.umbler.com";
         $mail->SMTPAuth = true; // Usar autenticação SMTP (obrigatório para smtp.seudomínio.com.br)
         $mail->Username = 'site@alberione.com.br'; // Usuário do servidor SMTP (endereço de email)
-        $mail->Password = 'aa*010203'; // Senha do servidor SMTP (senha do email usado)
+        $mail->Password = 'aaa*010203'; // Senha do servidor SMTP (senha do email usado)
         $mail->SMTPOptions = array(
             'ssl' => array(
                 'verify_peer' => false,
@@ -89,7 +89,7 @@ if(isset($recaptcha_response)){
     // $mail->AddAttachment($arquivo['tmp_name'], $arquivo['name']);
     //==================================================== 
         if ($enviado = $mail->Send()){ 
-                header("Location: ../index.php?enviado=true");
+                header("Location: ../index-form.php?enviado=true");
             } 
             else
             { 
