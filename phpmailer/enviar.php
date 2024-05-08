@@ -40,7 +40,7 @@ if(isset($recaptcha_response)){
         $mail->Host = "smtp.umbler.com";
         $mail->SMTPAuth = true; // Usar autenticação SMTP (obrigatório para smtp.seudomínio.com.br)
         $mail->Username = 'site@alberione.com.br'; // Usuário do servidor SMTP (endereço de email)
-        $mail->Password = 'aaa*010203'; // Senha do servidor SMTP (senha do email usado)
+        $mail->Password = 'senha*010203'; // Senha do servidor SMTP (senha do email usado)
         $mail->SMTPOptions = array(
             'ssl' => array(
                 'verify_peer' => false,
