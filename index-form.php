@@ -83,7 +83,11 @@ position: relative;
   }
 
 </style>
-<?php require_once "ads.php" ?>	
+<?php require_once "ads.php" ?>
+<!-- Event snippet for Enviar formulário de lead conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-16518001549/qhBzCPiMz6cZEI3nssQ9'});
+</script>
 </head>
 	<body class="page">
 <!--        <div id="id01" class="w3-modal">
