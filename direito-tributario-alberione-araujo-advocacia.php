@@ -78,13 +78,22 @@
 							<li> Recuperação de créditos Tributários;</li>
 							<li> Análise das práticas fiscais e tributárias;</li>
 							<li> Auditoria Tributária;</li>
-							<li> Compensação e Parcelamento de tributos.</li>
+							<li> Compensação e Parcelamento de tributos;</li>
+							<li> Prescrição Intercorrente. </li>
+							<p><a class="button red" href="contato-advocacia.php">Entre em contato</a></p>
 						</ul> 
 						</p>
 					</div>
-				</section>															
+				</section>
 				<section class="row section call-to-action">
-<div class="row-content buffer even animation" style="padding-right:0;">
+					<div class="row-content buffer even animation" style="padding-right:0;padding-left:0;">
+						<p><strong>Você sabe o que é prescrição intercorrente<br>e como ela pode proteger seus direitos?</strong></p><br>
+						<p>Entre em contato conosco hoje mesmo e descubra como podemos ajudar você a evitar <strong>cobranças indevidas</strong>.<br></p><br><br>
+						<a class="button red" href="contato-advocacia.php">Clique aqui e saiba mais</a>
+					</div>
+				</section>																
+				<section class="row section call-to-action">
+					<div class="row-content buffer even animation" style="padding-right:0;padding-left:0;">
 						<p><strong>Precisando de ajuda com Direito Tributário?</strong></p><br>
 						<p>Possuímos equipes preparada para auxilio na busca de seus direitos!<br></p><br><br>
 						<a class="button red" href="contato-advocacia.php">Entre em contato</a>

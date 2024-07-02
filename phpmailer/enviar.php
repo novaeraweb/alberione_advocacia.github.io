@@ -79,9 +79,7 @@ if(isset($recaptcha_response)){
         Email: '.$email.'<br><br>
         Mensagem:<br>
         '.$mensagem.'
-
         ';
-
         if (isset($_FILES['arquivo'])) {
             $mail->AddAttachment($arquivo['tmp_name'], $arquivo['name']);
         }
