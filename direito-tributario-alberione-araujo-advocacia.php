@@ -80,7 +80,6 @@
 							<li> Auditoria Tributária;</li>
 							<li> Compensação e Parcelamento de tributos;</li>
 							<li> Prescrição Intercorrente. </li>
-							<p><a class="button red" href="contato-advocacia.php">Entre em contato</a></p>
 						</ul> 
 						</p>
 					</div>
