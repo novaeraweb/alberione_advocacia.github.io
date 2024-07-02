@@ -88,7 +88,7 @@
 					<div class="row-content buffer even animation" style="padding-right:0;padding-left:0;">
 						<p><strong>Você sabe o que é prescrição intercorrente<br>e como ela pode proteger seus direitos?</strong></p><br>
 						<p>Entre em contato conosco hoje mesmo e descubra como podemos ajudar você a evitar <strong>cobranças indevidas</strong>.<br></p><br><br>
-						<a class="button red" href="contato-advocacia.php">Clique aqui e saiba mais</a>
+						<a class="button red" href="https://prescricao.alberione.com.br" target="_blank" rel="noopener" rel="noreferrer">Clique aqui e saiba mais</a>
 					</div>
 				</section>																
 				<section class="row section call-to-action">
