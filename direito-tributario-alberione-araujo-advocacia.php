@@ -70,7 +70,7 @@
 <p style="text-align: justify;">Além disso, atuamos de forma assertiva no <strong>contencioso administrativo e judicial</strong>, defendendo os interesses de nossos clientes em disputas tributárias e buscando sempre os melhores resultados. Nossa expertise também abrange a <strong>recuperação de créditos tributários, a análise das práticas fiscais e tributárias, e a realização de auditorias que identificam oportunidades de melhoria e riscos fiscais</strong>.</p>
 
 <p style="text-align: justify;">Com serviços que incluem a <strong>compensação e parcelamento de tributos</strong>, bem como a gestão de prescrição intercorrente, a Alberione Advogados se posiciona como um parceiro confiável para empresas que buscam segurança e eficiência em suas operações tributárias. Nossa missão é fornecer soluções completas e personalizadas, sempre com o objetivo de minimizar os impactos fiscais e maximizar os benefícios legais.</p>
-						<p style="text-align: justify;">Com  atuação destacado na área tributária o escritório oferece:
+						<h2 style="text-align: justify;">Com  atuação na área tributária o escritório oferece:</h2>
 						<ul style="text-align: left;">
 							<li> Consultoria Tributária;</li>
 							<li> Análise e Planejamento Tributário; </li>
@@ -81,7 +81,6 @@
 							<li> Compensação e Parcelamento de tributos;</li>
 							<li> Prescrição Intercorrente. </li>
 						</ul> 
-						</p>
 					</div>
 				</section>															
 				<section class="row section call-to-action">
