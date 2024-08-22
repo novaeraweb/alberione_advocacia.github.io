@@ -50,26 +50,26 @@
 <meta name="theme-color" content="#ffffff">	
 <?php require_once "ads.php" ?>	
 </head>
-	<body class="page">
-	<?php require_once "header.php"?>
-
+<body class="page">
+<?php require_once "header.php"?>
 		<main role="main">
 			<div id="intro-wrap" class="tributario">
 				<div id="intro" class="preload darken" data-autoplay="5000" data-navigation="true" data-pagination="true" data-transition="fadeUp">					
 					<div class="intro-item">
 						<div class="caption titulo">
 							<h1 style="color:#f9f9f9;text-shadow:1px 0.2px 1px black!important;">DIREITO TRIBUTÁRIO</h1>
-						</div><!-- caption -->		
-					</div>														
-															
-				</div><!-- intro -->
-
-			</div><!-- intro-wrap -->
-
+						</div>	
+					</div>																					
+				</div>
+			</div>
 			<div id="main">
-
 				<section class="row section call-to-action">
 					<div class="row-content buffer even">
+						<p>A Alberione Advogados se destaca pela sua atuação na área de <strong>direito tributário</strong>, oferecendo uma ampla gama de serviços voltados para a proteção e otimização das finanças de seus clientes. Nossa equipe de advogados especializados está preparada para oferecer <strong>consultoria tributária</strong>, <strong>análise e planejamento tributário</strong>, garantindo que sua empresa esteja em conformidade com as legislações vigentes e aproveitando todas as oportunidades de economia fiscal.</p>
+
+<p>Além disso, atuamos de forma assertiva no <strong>contencioso administrativo e judicial</strong>, defendendo os interesses de nossos clientes em disputas tributárias e buscando sempre os melhores resultados. Nossa expertise também abrange a recuperação de créditos tributários, a análise das práticas fiscais e tributárias, e a realização de auditorias que identificam oportunidades de melhoria e riscos fiscais.</p>
+
+<p>Com serviços que incluem a compensação e parcelamento de tributos, bem como a gestão de prescrição intercorrente, a Alberione Advogados se posiciona como um parceiro confiável para empresas que buscam segurança e eficiência em suas operações tributárias. Nossa missão é fornecer soluções completas e personalizadas, sempre com o objetivo de minimizar os impactos fiscais e maximizar os benefícios legais.</p>
 						<p style="text-align: justify;">Com  atuação destacado na área tributária o escritório oferece:
 						<ul style="text-align: left;">
 							<li> Consultoria Tributária;</li>
@@ -83,14 +83,7 @@
 						</ul> 
 						</p>
 					</div>
-				</section>
-				<section class="row section call-to-action">
-					<div class="row-content buffer even animation" style="padding-right:0;padding-left:0;">
-						<p><strong>Você sabe o que é prescrição intercorrente<br>e como ela pode proteger seus direitos?</strong></p><br>
-						<p>Entre em contato conosco hoje mesmo e descubra como podemos ajudar você a evitar <strong>cobranças indevidas</strong>.<br></p><br><br>
-						<a class="button red" href="https://prescricao.alberione.com.br" target="_blank" rel="noopener" rel="noreferrer">Clique aqui e saiba mais</a>
-					</div>
-				</section>																
+				</section>															
 				<section class="row section call-to-action">
 					<div class="row-content buffer even animation" style="padding-right:0;padding-left:0;">
 						<p><strong>Precisando de ajuda com Direito Tributário?</strong></p><br>
