@@ -88,7 +88,7 @@
 					<div class="row-content buffer even animation" style="padding-right:0;padding-left:0;">
 						<p><strong>Precisando de ajuda com Direito Tributário?</strong></p><br>
 						<p>Possuímos equipes preparada para auxilio na busca de seus direitos!<br></p><br><br>
-						<a href="https://api.whatsapp.com/send?phone=5514997698522&amp;text=Ol%C3%A1%2C%20me%20chame%20no%20WhatsApp! Contato através do site." target="_blank" rel="noopener" rel="noreferrer">Entre em contato</a>
+						<a class="button red" href="https://api.whatsapp.com/send?phone=5514997698522&amp;text=Ol%C3%A1%2C%20me%20chame%20no%20WhatsApp! Contato através do site." target="_blank" rel="noopener" rel="noreferrer">Entre em contato</a>
 					</div>
 				</section>		
 <?php require_once "mapa.php" ?>								
