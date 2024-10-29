@@ -30,6 +30,7 @@ if(isset($recaptcha_response)){
         $mail = new PHPMailer();
         $nome = $_POST["nome"];
         $email = $_POST["email"];
+        $celular = $_POST["celular"];
         $mensagem = $_POST["mensagem"];
         if (isset($_FILES['arquivo'])) {
             $arquivo = $_FILES['arquivo'];
@@ -56,7 +57,7 @@ if(isset($recaptcha_response)){
         // Define os destinatário(s)
         //$mail->AddAddress($email);
         // $mail->AddAddress('site@novaeraweb.com.br'); // Copia
-        $mail->AddAddress('consultoria@alberione.com.br'); // Copia
+        $mail->AddAddress('contato@novaeraweb.com.br', 'Site'); // Copia
         $mail->AddBCC('contato@novaeraweb.com.br', 'Site'); // Cópia Oculta
         // Define os dados técnicos da Mensagem
         // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -68,6 +69,7 @@ if(isset($recaptcha_response)){
         $mail->Body = '
         Lead captado através do site:<br><br>
         Nome: '.$nome.'<br>
+        Celular: '.$celular.'<br>
         Email: '.$email.'<br><br>
         Mensagem:<br>
         '.$mensagem.'
@@ -76,6 +78,7 @@ if(isset($recaptcha_response)){
         $mail->AltBody = '
         Lead captado através do site:<br><br>
         Nome: '.$nome.'<br>
+        Celular: '.$celular.'<br>
         Email: '.$email.'<br><br>
         Mensagem:<br>
         '.$mensagem.'

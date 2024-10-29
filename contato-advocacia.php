@@ -50,6 +50,8 @@
 							<form id="contact-form" class="contact-section" method="post" action="phpmailer/enviar.php" enctype="multipart/form-data" onsubmit="return validaCaptcha();">
 								<span class="pre-input"><i class="icon icon-user"></i></span>
 								<input class="name plain buffer" type="text" name="nome" placeholder="Nome" required="">
+								<span class="pre-input"><i class="icon icon-phone-two"></i></span>
+								<input class="email plain buffer" type="tel" name="celular" placeholder="Celular" placeholder="(00)0.0000.0000" maxlength="13" required="">
 								<span class="pre-input"><i class="icon icon-email"></i></span>
 								<input class="email plain buffer" type="email" name="email" placeholder="Email" required="">
 								<textarea class="plain buffer" name="mensagem" placeholder="Como podemos lhe ajudar?"></textarea>
