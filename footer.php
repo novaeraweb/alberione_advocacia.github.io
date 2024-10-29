@@ -7,7 +7,7 @@
 <ul class="plain">
 <li><a href="index.php">Home</a></li>
 <li><a href="alberione-araujo-advocacia.php">O escritório</a></li>
-<li><a href="advogados-alerione-araujo-advocacia.php">Equipe</a></li>
+<li><a href="advogados-alberione-araujo-advocacia.php">Equipe</a></li>
 <li><a href="artigo.php">Artigos</a></li>
 <li><a href="contato-advocacia.php">Contato</a></li>
 </ul>
@@ -22,11 +22,11 @@
 <div class="widget column three">
 <h4>Equipe</h4>
 <ul class="plain">
-<li><a href="advogados-alerione-araujo-advocacia.php">Alberione Araújo da Silva</a></li>
-<li><a href="advogados-alerione-araujo-advocacia.php">Rodolfo Rubens Martins Corrêa</a></li>
-<li><a href="advogados-alerione-araujo-advocacia.php">Hellon Asperti</a></li>
-<li><a href="advogados-alerione-araujo-advocacia.php">Josué de Souza Marcelino</a></li>
-<li><a href="advogados-alerione-araujo-advocacia.php">Gildo Tácito Junior</a></li>
+<li><a href="advogados-alberione-araujo-advocacia.php">Alberione Araújo da Silva</a></li>
+<li><a href="advogados-alberione-araujo-advocacia.php">Rodolfo Rubens Martins Corrêa</a></li>
+<li><a href="advogados-alberione-araujo-advocacia.php">Hellon Asperti</a></li>
+<li><a href="advogados-alberione-araujo-advocacia.php">Josué de Souza Marcelino</a></li>
+<li><a href="advogados-alberione-araujo-advocacia.php">Gildo Tácito Junior</a></li>
 </ul>	
 </div>
 <div class="widget meta-social column three">
@@ -39,6 +39,11 @@
 </div>														
 </section><!-- top-footer -->
 <section id="bottom-footer">
+<div class="text-center">
+    <p class="text-center">
+        <a href="https://prescricao.alberione.com.br/termos-de-uso.html" target="_blank" rel="noopener" rel="noreferrer">Termos de Uso</a> | <a href="https://prescricao.alberione.com.br/politicas-privacidade.html" target="_blank" rel="noopener" rel="noreferrer">Política de Privacidade</a>
+    </p>
+</div>
 <p class="keep-left">&copy; <?=date("Y")?> Alberione Advgados | Botucatu/SP</p>
 <p class="keep-right">Site desenvolvido por <a href="https://www.novaeraweb.com.br" target="_blank" rel="noopener" rel="noreferrer">NovaEraWeb</a></p>
 </section><!-- bottom-footer -->			
