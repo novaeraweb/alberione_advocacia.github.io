@@ -55,22 +55,19 @@ $titulos = listaTitulos($alberione,$ativo);
 						<div class="caption titulo">
 							<h1 style="color:#f9f9f9;text-shadow:1px 0.2px 1px black!important;">ARTIGOS</h1>
 						</div><!-- caption -->		
-					</div>														
-															
+					</div>																					
 				</div><!-- intro -->
-
 			</div><!-- intro-wrap -->
-
 			<div id="main" class="row">
 				<div class="row-content buffer-left buffer-right buffer-bottom clear-after">
 					<div class="column nine">
 				<?php foreach($artigos as $artigo) {  ?>
 					<article class="clear-after">        
 						<div class="column three">
-							<figure><img src="adm/arquivos/<?=$artigo->imagem?>" alt="<?=$artigo->titulo?>"style="height:120px;"></figure>
+							<figure><img src="adm/arquivos/<?=$artigo->imagem?>" alt="<?=$artigo->titulo?>"style="height:200px;"></figure>
 						</div><!-- column three -->
 						<div class="column nine last">
-							<h2><a href="artigo.php?id=<?=$artigo->id?>"><?=$artigo->titulo?></a></h2>
+							<h2 style="font-size:1.2em"><a href="artigo.php?id=<?=$artigo->id?>"><?=$artigo->titulo?></a></h2>
 							<h5 class="meta-post"><?=$artigo->atuacao?></a> - <time datetime="2013-11-10"><?=$artigo->data?></time></h5>
 							<p style="text-align:justify;"><?=substr($artigo->texto, 0, strrpos(substr($artigo->texto, 0, 160), ' ')) . '...'; ?> <a href="artigo.php?id=<?=$artigo->id?>">[ leia o artigo completo ]</a></p>
 

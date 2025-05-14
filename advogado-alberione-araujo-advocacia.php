@@ -14,11 +14,11 @@
 <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 <![endif]-->
 <link rel="author" href="https://www.novaeraweb.com.br"/>
-<link rel="canonical" href="https://alberione.com.br/advogados-alberione-araujo-advocacia.php" />
+<link rel="canonical" href="https://alberione.com.br/advogado-alberione-araujo-advocacia.php" />
 <meta property="og:locale" content="pt_BR">
 <meta property="og:title" content="Advogados - Alberione Araújo Advocacia | Botucatu/SP" />
 <meta property="og:type" content="website"/>
-<meta property="og:url" content="https://alberione.com.br/advogados-alberione-araujo-advocacia.php"/>
+<meta property="og:url" content="https://alberione.com.br/advogado-alberione-araujo-advocacia.php"/>
 <meta property="og:image" content="https://alberione.com.br/images/logo-alberione.png" />
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="800">
@@ -40,7 +40,7 @@
 				<div id="intro" class="preload darken" data-autoplay="5000" data-navigation="true" data-pagination="true" data-transition="fadeUp">					
 					<div class="intro-item">
 						<div class="caption titulo">
-							<h1 style="color:#f9f9f9;text-shadow:1px 0.2px 1px black!important;">Equipe</h1>
+							<h1 style="color:#f9f9f9;text-shadow:1px 0.2px 1px black!important;">Advogado </h1>
 						</div><!-- caption -->		
 					</div>																					
 				</div>
@@ -48,8 +48,7 @@
 			<div id="main">
 				<section class="row section">
 					<div class="row-content buffer even">
-						<p>Nosso escritório possui profissionais experientes nas mais diversas áreas da advocacia, promovendo serviços para pessoas físicas e jurídicas.</p>
-						<p>Possuímos parceiros e correspondentes em todas as cidades do Estado de São Paulo, o que nos permite um melhor atendimento dos nossos clientes no interior paulista</p>
+						<p>O escritório Alberione Advogados é conduzido por profissional com ampla experiência no Direito Tributário, oferecendo atendimento personalizado para pessoas físicas e jurídicas em todo o Estado de São Paulo. Atuamos com dedicação e agilidade, inclusive no interior paulista.</p>
 					</div>
 				</section>
 				<section class="row section">

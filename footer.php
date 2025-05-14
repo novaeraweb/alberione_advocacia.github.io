@@ -7,7 +7,7 @@
 <ul class="plain">
 <li><a href="index.php">Home</a></li>
 <li><a href="alberione-araujo-advocacia.php">O escritório</a></li>
-<li><a href="advogados-alberione-araujo-advocacia.php">Equipe</a></li>
+<li><a href="advogado-alberione-araujo-advocacia.php">Advogado</a></li>
 <li><a href="artigo.php">Artigos</a></li>
 <li><a href="contato-advocacia.php">Contato</a></li>
 </ul>

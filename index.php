@@ -86,7 +86,7 @@ position: relative;
 <?php require_once "ads.php" ?>	
 </head>
 	<body class="page">
-       <div id="id01" class="w3-modal">
+<!--        <div id="id01" class="w3-modal">
         <div class="w3-modal-content">
           <div class="w3-container">
             <span onclick="document.getElementById('id01').style.display='none'"
@@ -97,45 +97,41 @@ position: relative;
             <p>Esteja ciente que o escritório ALBERIONE ADVOGADOS <strong>não solicita</strong><br>antecipação de créditos a serem recebidos. Se receber esse tipo de mensagem é Fraude!<br><span style="font-size:0.8em;color:#3c3c3c;"> Mais informações: (14) 9-9769-8522</span></strong></p>
           </div>
         </div>
-      </div>
+      </div> -->
 	<?php require_once "header.php"  ?>
 		<main role="main"><?php  require_once "alerta.php" ?>
-			<div id="intro-wrap">
-				<div id="intro" class="preload darken" data-autoplay="5000" data-navigation="true" data-pagination="true" data-transition="fadeUp">					
-				<div class="intro-item">
-				<!-- <img src="img/banner-cel.jpg" alt="" class="yesphone"> -->
- 				<video poster="img/banner-cel.jpg" id="bgvid" playsinline autoplay muted loop>
+			<div id="intro-wrap" style="min-height: 770px;">
+				<div id="intro" class="preload" data-autoplay="5000" data-navigation="true" data-pagination="true" data-transition="fadeUp">					
+				<div class="intro-item" style="min-height: 600px;">
+				<img src="img/advogado-tributarista-botucatu.jpg" alt="" class="">
+<!--  				<video poster="img/banner-cel.jpg" id="bgvid" playsinline autoplay muted loop>
  						<source src="video/video-celular.webm" type="video/webm" onerror="fallback(parentNode)">
 						<source src="video/video-celular.mp4" type="video/mp4">
-				</video>
+				</video> 
 				<div id="polina" class="nophone">
-				<button>||</button>
+				<button>||</button>-->
 				</div>
-						<div class="caption">
-							<!-- <h1>Alberione Araújo Advogados</h1> -->
+<!-- 						<div class="caption">
+							<h1>Alberione Araújo Advogados</h1>
 							<p style="margin-top:450px;">“Ser a voz dos nossos clientes perante a Justiça, a fim de desenvolver um Brasil e um mundo melhor!”</p>
-						</div><!-- caption -->		
+						</div>	 -->
 					</div>																		
 				</div><!-- intro -->
 			</div><!-- intro-wrap -->
 			<div id="main">
 				<section class="row section" style="text-align:center;background-color:#f5f5f5;">
-					<h2>Áreas de Atuação</h2>
+					<h2>Advogado Tributário</h2>
 					<div class="row-content buffer even clear-after"> 
 						<div class="column" style="height:190px;margin-bottom:60px;">
 							<div class="small-icon red" style="background-image: url(img/icon-direito-tributario.png);"></div>
 							<div class="small-icon-text clear-after" style="text-align:left;">
 								<h4>Direito Tributário</h4>
-								<p class="text-g">Atuamos principalmente em temas de Direito Tributário, Direito Societário e Empresarial.</p><a class="button red" href="direito-tributario-alberione-araujo-advocacia.php">Saiba Mais</a>
+								<p class="text-g">Atuamos com foco em Direito Tributário, Direito Societário e Direito Empresarial, oferecendo soluções jurídicas estratégicas e seguras para empresas e contribuintes.</p>
+								<p class="text-g">Nosso objetivo é garantir suporte completo na gestão legal e fiscal dos nossos clientes, com orientações claras, atuação preventiva e defesa técnica em casos administrativos e judiciais.</p>
 							</div>
 						</div>
-						<div class="column" style="height:190px;margin-bottom:60px;">
-							<div class="small-icon red" style="background-image: url(img/icon-direito-trabalhista.png);"></div>
-							<div class="small-icon-text clear-after" style="text-align:left;">
-								<h4>Direito Trabalhista</h4>
-								<p class="text-g">Nosso escritório possui experiencia na área trabalhista, promovendo serviços para pessoas físicas e jurídicas em diversos assuntos do âmbito trabalhista.</p><a class="button red" href="direito-trabalhista-alberione-araujo-advocacia.php">Saiba Mais</a>
-							</div>
-						</div>
+						
+
 					</div>
 				</section>	
 				<section class="row section banner">

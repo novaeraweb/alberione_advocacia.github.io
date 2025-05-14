@@ -19,7 +19,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <li><a href="direito-tributario-alberione-araujo-advocacia.php">Direito Tributário</a></li>
 </ul>
 </li>
-<li class="menu-item"><a href="advogados-alberione-araujo-advocacia.php">Advogados</a></li>
+<li class="menu-item"><a href="advogado-alberione-araujo-advocacia.php">Advogado</a></li>
 <li class="menu-item"><a href="artigos-alberione-advocacia.php">Artigos</a></li>
 <li class="menu-item"><a href="video-alberione-araujo-advocacia.php">Vídeos</a></li>
 <li class="menu-item"><a href="contato-advocacia.php">Contato</a></li>

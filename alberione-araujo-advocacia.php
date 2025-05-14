@@ -60,39 +60,23 @@
 						<div class="caption titulo">
 							<h1 style="color:#f9f9f9;text-shadow:1px 0.2px 1px black!important;">O ESCRITÓRIO</h1>
 						</div><!-- caption -->		
-					</div>														
-															
+					</div>																							
 				</div><!-- intro -->
-
 			</div><!-- intro-wrap -->
-
 			<div id="main">
-
 				<section class="row section call-to-action">
 					<div class="row-content buffer even">
-						<p style="text-align: justify;">Nosso Escritório com mais de dez anos de mercado, sempre busca ser referência na prestação de serviços jurídicos nas áreas de<strong> direito público, previdenciário, trabalhista e tributário</strong>.</p>
-						<p style="text-align: justify;">O escritório conta com advogados capacitados, qualificados e com ampla experiência profissional no mercado jurídico, com uma equipe comprometida com resultados positivos aos clientes.</p>
-						<p style="text-align: justify;">Conheça os nossos serviços nesta página ou fazendo uma visita ao escritório.</p>
-<!-- 							<ul style="text-align: left;">
-								<li> Aposentadoria por tempo de contribuição;</li>
-								<li> Aposentadoria especial;</li>
-								<li> Aposentadoria de professor;</li>
-								<li> Aposentadoria por idade;</li>
-								<li> Aposentadoria da pessoa com deficiência;</li>
-								<li> Aposentadoria do servidor público;</li>
-								<li> Aposentadoria pela Regra 85/95 (atualmente  86/96);</li>
-								<li> Auxílio-doença;</li>
-								<li> Auxílio-acidente;</li>
-								<li> Conversão de benefícios previdenciários;</li>
-								<li> Revisão de aposentadorias.</li>
-							</ul> -->
-						</p>
+						<p style="text-align: justify;">Com mais de 12 anos de experiência no mercado jurídico, o escritório Alberione Advogados tem como missão oferecer um atendimento ético, eficiente e personalizado, buscando sempre ser referência na prestação de serviços jurídicos na área de Direito Tributário.</p>
+
+						<p style="text-align: justify;">Nosso trabalho é pautado na excelência técnica e no compromisso com os resultados. Atuamos com profundidade na análise de cada caso, buscando soluções eficazes e seguras para pessoas físicas e jurídicas, sempre com foco na prevenção de litígios e na defesa dos interesses de nossos clientes.</p>
+
+						<p style="text-align: justify;">Ao longo de nossa trajetória, construímos uma reputação sólida com base na transparência, no respeito e na dedicação com que tratamos cada demanda. Nosso atendimento é conduzido diretamente pelo advogado Alberione Araújo, profissional experiente e comprometido com a qualidade e agilidade na entrega dos serviços.</p>
 					</div>
 				</section>															
 
 				<section class="row section call-to-action">
 <div class="row-content buffer even animation" style="padding-right:0;">
-						<p><strong>Procurando profissionais experientes?</strong></p><br><br>
+						<p><strong>Procurando um Advogado especialista em Direito Tributário?</strong></p><br><br>
 						<a class="button red" href="contato-advocacia.php">Entre em contato</a>
 					</div>
 				</section>
