@@ -15,18 +15,13 @@
 <div class="widget column three">
 <h4>Áreas de atuação</h4>
 <ul class="plain">
-<li><a href="direito-trabalhista-alberione-araujo-advocacia.php">Direito Trabalhista</a></li>
 <li><a href="direito-tributario-alberione-araujo-advocacia.php">Direito Tributário</a></li>
 </ul>
 </div>								
 <div class="widget column three">
-<h4>Equipe</h4>
+<h4>Advogado</h4>
 <ul class="plain">
 <li><a href="advogados-alberione-araujo-advocacia.php">Alberione Araújo da Silva</a></li>
-<li><a href="advogados-alberione-araujo-advocacia.php">Rodolfo Rubens Martins Corrêa</a></li>
-<li><a href="advogados-alberione-araujo-advocacia.php">Hellon Asperti</a></li>
-<li><a href="advogados-alberione-araujo-advocacia.php">Josué de Souza Marcelino</a></li>
-<li><a href="advogados-alberione-araujo-advocacia.php">Gildo Tácito Junior</a></li>
 </ul>	
 </div>
 <div class="widget meta-social column three">

@@ -17,7 +17,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <a href="">Atuação</a>
 <ul class="sub-menu">
 <li><a href="direito-tributario-alberione-araujo-advocacia.php">Direito Tributário</a></li>
-<li><a href="direito-trabalhista-alberione-araujo-advocacia.php">Direito Trabalhista</a></li>
 </ul>
 </li>
 <li class="menu-item"><a href="advogados-alberione-araujo-advocacia.php">Advogados</a></li>

@@ -63,43 +63,6 @@
 							<figure><div><img src="img/alberione-araujo-advogado.jpg" alt="Imagem do Advogado Alberione Araujo"></div></figure>
 						</div>
 					</div>	
-				</section>	
-				<section class="row section">
-					<div class="row-content buffer even clear-after">	
-							<div class="column six push-six">
-							<h2>Rodolfo Rubens Martins Corrêa<br><span style="font-size:0.5em;color:#333">| Parceiro</span></h2>
-							<p style="text-align:justify;">Advogado inscrito na OAB SP 249476, Mestre em Direito Comercial pela PUC-SP. MBA em Direito Empresarial pela FGV-GVLaw. Pós-graduando em Direito Tributário pelo IBET. Ex-professor de Direito na UNESP. Advogado. (Disciplinas que leciona: Direito Empresarial; Direito Tributário; Teoria Geral do Direito; Direito Internacional; Direito Civil: Parte Geral e Direito das Obrigações.</p>
-							<p><em><a href="mailto:rodolforubenscorrea@gmail.com" target="_blank">rodolforubenscorrea@gmail.com</a></em></p>
-						</div>							
-						<div class="side-mockup left-mockup animation">
-							<figure><div><img src="img/rodolfo-rubens-martins.jpg" alt="Imagem do Advogado Rodolfo Corrêa"></div></figure>
-						</div>	
-					</div>	
-				</section>	
- 				<section class="row section">
-					<div class="row-content buffer even clear-after">	
-						<div class="column six push-six ">
-							<h2>Josué de Souza Marcelino<br><span style="font-size:0.5em;color:#333"> | Advogado</span></h2>
-							<p style="text-align:justify;">Graduado pela Faculdade de Direito de Bauru. Experiência Criminal.</p>
-							<p><em><a href="mailto:marcelino-max@hotmail.com" target="_blank">marcelino-max@hotmail.com</a></em></p>
-						</div>							
-						<div class="side-mockup left-mockup animation">
-							<figure><div><img src="img/josue-marcelino.jpg" alt="Imagem do Advogado Josué Marcelino"></div></figure>
-						</div>	
-
-					</div>	
-				</section>
-				<section class="row section">
-					<div class="row-content buffer even clear-after">	
-						<div class="column six last-special">
-							<h2>Gildo Tácito Junior<br><span style="font-size:0.5em;color:#333"> | Advogado</span></h2>
-							<p style="text-align:justify;">Graduado pela Faculdade Marechal Rondon. Experiência Trabalhista e Cível.</p>
-							<p><em><a href="mailto:btgildoj@gmail.com" target="_blank">btgildoj@gmail.com</a></em></p>
-						</div>
-						<div class="side-mockup right-mockup animation">
-							<figure><div><img src="img/gildo-tacito-junior.jpg" alt="Imagem do Advogado Gildo Tácito"></div></figure>
-						</div>	
-					</div>	
 				</section>
 				<section class="row section call-to-action">
 					<div class="row-content buffer even animation" style="padding-right:0;">
