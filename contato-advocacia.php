@@ -66,9 +66,14 @@
 						<div class="column three last">
 							<div class="widget">
 								<h3>Escritório Botucatu/SP</h3>
-								<p>Rua General Telles, 1516, Centro<br>
-									Botucatu/SP<br>
+								<p>Rua General Telles, 1516, Centro - Botucatu/SP<br>
 								</p>
+							</div>
+							<div class="widget">
+								<h3>Fale Conosco</h3>
+								<p><a href="mailto:consultoria@alberionearaujo.com.br" target="_blank" rel="noopener" rel="noreferrer">consultoria@alberione.com.br</a></p>
+									<p><a href="tel:5514997698522" target="_blank" rel="noopener" rel="noreferrer">(14) 9.99769.8522</a></p>
+								</ul>
 							</div>
 							<div class="widget">
 								<h3>Nas Redes Sociais</h3>

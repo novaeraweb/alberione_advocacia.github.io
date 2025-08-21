@@ -51,13 +51,12 @@ if(isset($recaptcha_response)){
         );
         // Define o remetente
         // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-        $mail->From = $email; // Seu e-mail
+        $mail->From = 'site@alberione.com.br'; // Seu e-mail
         $mail->Sender = 'site@alberione.com.br'; // Seu e-mail
         $mail->FromName =  $nome; // Seu nome
         // Define os destinatário(s)
         //$mail->AddAddress($email);
-        // $mail->AddAddress('site@novaeraweb.com.br'); // Copia
-        $mail->AddAddress('contato@novaeraweb.com.br', 'Site'); // Copia
+        $mail->AddAddress('consultoria@alberione.com.br', 'Site'); // Copia
         $mail->AddBCC('contato@novaeraweb.com.br', 'Site'); // Cópia Oculta
         // Define os dados técnicos da Mensagem
         // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
