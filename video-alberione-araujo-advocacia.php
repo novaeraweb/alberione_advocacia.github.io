@@ -56,21 +56,12 @@
 </head>
 <body class="page">
 	<?php require_once "header.php" ?>
-		<main role="main">
-			<div id="intro-wrap" class="video">
-				<div id="intro" class="preload darken" data-autoplay="5000" data-navigation="true" data-pagination="true" data-transition="fadeUp">					
-					<div class="intro-item">
-						<div class="caption titulo">
-							<h1 style="color:#f9f9f9;text-shadow:1px 0.2px 1px black!important;">Vídeos </h1>
-						</div>
-					</div>																					
-				</div>
-			</div>
-			<div id="main">
-				<section class="row section">
-		<section class="videos-youtube">
-			<iframe width="100%" height="100%"
-				src="https://www.youtube.com/embed/videoseries?list=UUHt6Zkkg5zMKvrL2Zi3hXTg"
+	<main role="main">
+		<div class="videos-youtube">
+			<iframe
+				width="100%"
+				height="100%"
+				src="https://www.youtube-nocookie.com/embed/videoseries?list=UUHt6Zkkg5zMKvrL2Zi3hXTg&rel=0"
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 				allowfullscreen></iframe>
