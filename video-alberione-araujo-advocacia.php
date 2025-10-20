@@ -57,42 +57,51 @@
 <body class="page">
 	<?php require_once "header.php" ?>
 	<main role="main">
-		<div class="videos-youtube">
-			<iframe
-				width="100%"
-				height="100%"
-				src="https://www.youtube-nocookie.com/embed/videoseries?list=UUHt6Zkkg5zMKvrL2Zi3hXTg&rel=0"
-				frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-				allowfullscreen></iframe>
-		</section>
-		<section class="row section call-to-action">
-			<div class="row-content buffer even animation">
-				<p><strong>Precisando de ajuda com Direito Tributário?</strong></p><br>
-				<p>Possuímos equipes preparada para auxilio na busca de seus direitos!<br></p><br><br>
-				<a class="button red" href="contato-advocacia.php">Entre em contato</a>
+			<div id="intro-wrap" class="video">
+				<div id="intro" class="preload darken" data-autoplay="5000" data-navigation="true" data-pagination="true" data-transition="fadeUp">					
+					<div class="intro-item">
+						<div class="caption titulo">
+							<h1 style="color:#f9f9f9;text-shadow:1px 0.2px 1px black!important;">Vídeos </h1>
+						</div><!-- caption -->		
+					</div>																					
+				</div>
 			</div>
-		</section>
-		<?php require_once "mapa.php" ?>
-		</div><!-- id-main -->
-	</main><!-- main -->
-	<?php require_once "footer.php" ?>
-	<script>
-		// Set the options globally
-		// to make LazyLoad self-initialize
-		window.lazyLoadOptions = {
-			// Your custom settings go here
-		};
+<div id="main">
+	<section class="videos-youtube">
+		<iframe
+			width="100%"
+			height="100%"
+			src="https://www.youtube-nocookie.com/embed/videoseries?list=UUHt6Zkkg5zMKvrL2Zi3hXTg&rel=0"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+			allowfullscreen></iframe>
+	</section>
+	<section class="row section call-to-action">
+		<div class="row-content buffer even animation">
+			<p><strong>Precisando de ajuda com Direito Tributário?</strong></p><br>
+			<p>Possuímos equipes preparada para auxilio na busca de seus direitos!<br></p><br><br>
+			<a class="button red" href="contato-advocacia.php">Entre em contato</a>
+		</div>
+	</section>
+	<?php require_once "mapa.php" ?>
+</div>
+	</main>
+<?php require_once "footer.php" ?>
+<script>
+	// Set the options globally
+	// to make LazyLoad self-initialize
+	window.lazyLoadOptions = {
+		// Your custom settings go here
+	};
 
-		// Listen to the initialization event
-		// and get the instance of LazyLoad
-		window.addEventListener("LazyLoad::Initialized", function(event) {
-			window.lazyLoadInstance = event.detail.instance;
-		}, false);
-	</script>
+	// Listen to the initialization event
+	// and get the instance of LazyLoad
+	window.addEventListener("LazyLoad::Initialized", function(event) {
+		window.lazyLoadInstance = event.detail.instance;
+	}, false);
+</script>
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="js/plugins.js"></script>
 	<script src="js/beetle.js"></script>
 </body>
-
 </html>
