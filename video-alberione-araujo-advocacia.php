@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -55,7 +54,6 @@
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
 	<script async src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@latest/dist/lazyload.min.js"></script>
 </head>
-
 <body class="page">
 	<?php require_once "header.php" ?>
 	<main role="main">
@@ -67,7 +65,7 @@
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 				allowfullscreen></iframe>
-		</div>
+		</section>
 		<section class="row section call-to-action">
 			<div class="row-content buffer even animation">
 				<p><strong>Precisando de ajuda com Direito Tributário?</strong></p><br>
