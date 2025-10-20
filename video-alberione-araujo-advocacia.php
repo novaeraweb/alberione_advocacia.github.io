@@ -1,17 +1,4 @@
 <!DOCTYPE html>
-<?php
-// API config 
-$API_Key    = 'AIzaSyDaSQlsKyqIHD7r9wBDZ6OH8uyi19RJSng';
-$Channel_ID = 'UCHt6Zkkg5zMKvrL2Zi3hXTg';
-$Max_Results = 10;
-// Get videos from channel by YouTube Data API 
-$apiData = @file_get_contents('https://www.googleapis.com/youtube/v3/videos/search?order=date&part=snippet&channelId=' . $Channel_ID . '&maxResults=' . $Max_Results . '&key=' . $API_Key . '');
-if ($apiData) {
-	$videoList = json_decode($apiData);
-} else {
-	echo 'Invalid API key or channel ID.';
-}
-?>
 <html lang="pt-br">
 
 <head>
@@ -76,7 +63,7 @@ if ($apiData) {
 			<iframe
 				width="100%"
 				height="100%"
-				src="https://www.youtube.com/embed/videoseries?list=UUHt6Zkkg5zMKvrL2Zi3hXTg"
+				src="https://www.youtube-nocookie.com/embed/videoseries?list=UUHt6Zkkg5zMKvrL2Zi3hXTg&rel=0"
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 				allowfullscreen></iframe>
