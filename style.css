@@ -64,8 +64,9 @@ a {
 /* seção vídeos youtube */
 .videos-youtube {
     max-width: 600px;
-    height: 300px;
     margin: 20px auto;
+    margin-top: 120px;
+    margin-bottom: -120px;
 }
 
 .csstransitions a {

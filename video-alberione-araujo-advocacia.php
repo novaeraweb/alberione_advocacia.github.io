@@ -1,19 +1,5 @@
 <!DOCTYPE html>
-<?php
-// API config 
-$API_Key    = 'AIzaSyDaSQlsKyqIHD7r9wBDZ6OH8uyi19RJSng';
-$Channel_ID = 'UCHt6Zkkg5zMKvrL2Zi3hXTg';
-$Max_Results = 10;
-// Get videos from channel by YouTube Data API 
-$apiData = @file_get_contents('https://www.googleapis.com/youtube/v3/videos/search?order=date&part=snippet&channelId=' . $Channel_ID . '&maxResults=' . $Max_Results . '&key=' . $API_Key . '');
-if ($apiData) {
-	$videoList = json_decode($apiData);
-} else {
-	echo 'Invalid API key or channel ID.';
-}
-?>
 <html lang="pt-br">
-
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -68,19 +54,27 @@ if ($apiData) {
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
 	<script async src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@latest/dist/lazyload.min.js"></script>
 </head>
-
 <body class="page">
 	<?php require_once "header.php" ?>
-	<main role="main">
-		<div class="videos-youtube">
-			<iframe
-				width="100%"
-				height="100%"
+		<main role="main">
+			<div id="intro-wrap" class="video">
+				<div id="intro" class="preload darken" data-autoplay="5000" data-navigation="true" data-pagination="true" data-transition="fadeUp">					
+					<div class="intro-item">
+						<div class="caption titulo">
+							<h1 style="color:#f9f9f9;text-shadow:1px 0.2px 1px black!important;">Vídeos </h1>
+						</div>
+					</div>																					
+				</div>
+			</div>
+			<div id="main">
+				<section class="row section">
+		<section class="videos-youtube">
+			<iframe width="100%" height="100%"
 				src="https://www.youtube.com/embed/videoseries?list=UUHt6Zkkg5zMKvrL2Zi3hXTg"
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 				allowfullscreen></iframe>
-		</div>
+		</section>
 		<section class="row section call-to-action">
 			<div class="row-content buffer even animation">
 				<p><strong>Precisando de ajuda com Direito Tributário?</strong></p><br>
