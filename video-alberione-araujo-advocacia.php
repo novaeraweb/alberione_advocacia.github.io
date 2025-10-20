@@ -72,17 +72,17 @@ if ($apiData) {
 <body class="page">
 	<?php require_once "header.php" ?>
 	<main role="main">
-		<div class="videos-youtube" style="width: auto; max-width: 50%; margin: 0 auto; height: auto; padding: 20px;">
+		<div class="videos-youtube">
 			<iframe
-				width="800"
-				height="300"
+				width="100%"
+				height="100%"
 				src="https://www.youtube.com/embed/videoseries?list=UUHt6Zkkg5zMKvrL2Zi3hXTg"
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 				allowfullscreen></iframe>
 		</div>
 		<section class="row section call-to-action">
-			<div class="row-content buffer even animation" style="padding-right:0;">
+			<div class="row-content buffer even animation">
 				<p><strong>Precisando de ajuda com Direito Tributário?</strong></p><br>
 				<p>Possuímos equipes preparada para auxilio na busca de seus direitos!<br></p><br><br>
 				<a class="button red" href="contato-advocacia.php">Entre em contato</a>

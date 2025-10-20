@@ -61,6 +61,13 @@ a {
     text-decoration: underline;
 }
 
+/* seção vídeos youtube */
+.videos-youtube {
+    max-width: 600px;
+    height: 300px;
+    margin: 20px auto;
+}
+
 .csstransitions a {
     -webkit-transition: background-color 0.1s linear, color 0.1s linear;
     -moz-transition: background-color 0.1s linear, color 0.1s linear;
