@@ -5485,7 +5485,7 @@ max-width:100%;
 
 @media handheld,only screen and (max-width:48em) {
     body {
-        font-size: 0.9em;
+        font-size: 1.2em;
         -webkit-text-size-adjust: none;
     }
 }
