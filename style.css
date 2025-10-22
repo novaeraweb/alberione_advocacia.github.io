@@ -60,19 +60,34 @@ a {
     color: #222;
     text-decoration: underline;
 }
-
-/* seção vídeos youtube */
-.videos-youtube {
-    max-width: 600px;
-    margin: 20px auto;
-    margin-top: 120px;
-    margin-bottom: -120px;
+/* seção home*/
+.banner-home {
+    height: 770px!important;
 }
+
+.img-banner-home{
+    background-image: url(./img/advogado-tributarista-botucatu.jpg);
+}
+/* ============================================== */
+
+/* seção vídeos */
+.videos-youtube {
+    max-width: 650px;
+    margin: 80px auto 0 auto;
+}
+/* ============================================== */
+
+/* seção contato */
+.intro-wrap-contato {
+    margin-top: 118px;
+    height: 19em!important;
+}
+/* ============================================== */
 
 .csstransitions a {
     -webkit-transition: background-color 0.1s linear, color 0.1s linear;
     -moz-transition: background-color 0.1s linear, color 0.1s linear;
-    transition: background-color 0.1s linear, color 0.1s linear;    
+    transition: background-color 0.1s linear, color 0.1s linear;
 }
 
 /***** ALERT BOX */
@@ -646,7 +661,7 @@ nav ul.sub-menu > li:last-child > a {
     height: inherit;
 }
 
-#intro .intro-item {
+    #intro .intro-item {
     position: absolute;
     width: inherit;
     height: inherit;
@@ -1156,7 +1171,7 @@ video {
     display: block;
     background-color: rgba(79,193,233,0.9);
     opacity: 0;
-    filter: alpha(opacity=0);    
+    filter: alpha(opacity=0);
     -webkit-transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     transition: all 0.35s ease-in-out;
@@ -1236,7 +1251,7 @@ video {
     -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
     -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
-}    
+}
 
 .portfolio ul.cats {
     margin-top: 0;
@@ -1309,7 +1324,7 @@ video {
     color: #fff;
     text-align: center;
     opacity: 0;
-    filter: alpha(opacity=0);      
+    filter: alpha(opacity=0);
     cursor: pointer;
     -moz-opacity: 0;
 }
@@ -1866,7 +1881,7 @@ section.greyish {
 .text-light .small-icon,
 .text-light .big-icon {
     background-color: rgba(255,255,255,0.15);
-}   
+}
 
 .text-light a {
     color: #fff;
@@ -2373,7 +2388,7 @@ section.greyish {
 }
 
 .no-cssanimations .owl-item.active .photocaption {
-    -ms-transform: translateX(0);   
+    -ms-transform: translateX(0);
 }
 
 .owl-item.active .intro-mockup img {
@@ -2432,7 +2447,7 @@ section.greyish {
 .no-cssanimations .owl-item.active .caption .button,
 .no-cssanimations .owl-item.active .caption-mockup .button {
     opacity: 1;
-}    
+}
 
 @-webkit-keyframes fade {
     to {
@@ -2581,7 +2596,7 @@ input.button {
     font-family: 'Montserrat', sans-serif !important;
     line-height: 1.714em !important;
     cursor: pointer;
-}    
+}
 
 .csstransitions .button,
 .csstransitions input.button {
@@ -3631,6 +3646,27 @@ header img {
     margin-left: 20%;
 }
 
+/* logo header */
+.logo {
+    width: 12em!important;
+}
+
+/*@media seção home max-width: 640px*/
+.banner-home {
+    height: 345px!important;
+}
+
+.img-banner-home{
+    background-image: url(./img/advogado-tributarista-botucatu-mobile.jpg)!important; 
+    background-size: contain!important;
+}
+
+.banner {
+    height: 6.7em;
+    background-size: 100%;
+}
+/* ============================================== */
+
 figure {
     margin-right:0em;
 }
@@ -3645,6 +3681,26 @@ figure {
     height:6.7em!important;
     background-image: url(img/banner-direito-tributario.jpg);
 }
+
+/*@media  seção de vídeos max-width: 640px*/
+.video{
+    background-size: 100%;
+        font-size:0.8em;
+    height:6.7em!important;
+    background-image: url(img/banner-video.jpg);
+}
+.videos-youtube {
+    width: 100%;
+    margin: 20px auto 0 auto;
+}
+/* ============================================== */
+
+/* seção contato */
+.intro-wrap-contato {
+    margin-top: 20px;
+}
+/* ============================================== */
+
 .trabalhista {
     background-size: 100%;
         font-size:0.7em;
@@ -3883,7 +3939,7 @@ max-width:100%;
     .side-mockup .dasktop-slider {
         margin-left: -29px;
     }
-}       
+}
 
 
 /*----------------------------------------------------------------
@@ -4389,7 +4445,7 @@ max-width:100%;
     margin: 0 auto;
     background-color: #f9f9f9;
     box-shadow: 1px 1px 1px #3c3c3c;
-   
+
 }
 
     .iphone-slider {
@@ -4514,7 +4570,7 @@ max-width:100%;
     .side-mockup .owl-pagination {
         display: block;
     }
-}  
+}
 
 
 /*----------------------------------------------------------------
@@ -4533,12 +4589,12 @@ max-width:100%;
     font-size: 40px;
     line-height: 40px;
     opacity: 0.3;
-    filter: Alpha(Opacity=30); 
+    filter: Alpha(Opacity=30);
     -webkit-transition: opacity .3s ease;
     -moz-transition: opacity .3s ease;
     transition: opacity .3s ease;
     zoom: 1;
-    *display: inline; 
+    *display: inline;
 }
 
 #intro-wrap .owl-controls .owl-buttons div {
@@ -4586,7 +4642,7 @@ max-width:100%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    background: #fff; 
+    background: #fff;
     opacity: 0.3;
     filter: Alpha(Opacity=30);
 }
@@ -4798,7 +4854,7 @@ max-width:100%;
     -moz-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
     -o-backface-visibility: hidden;
-    backface-visibility: hidden;    
+    backface-visibility: hidden;
 }
 
 /* CSS3 Transitions */
@@ -4812,13 +4868,13 @@ max-width:100%;
     -moz-perspective-origin-y: 50%;
     -ms-perspective: 1200px;
     -ms-perspective-origin-x: 50%;
-    -ms-perspective-origin-y: 50%;  
+    -ms-perspective-origin-y: 50%;
     -o-perspective: 1200px;
     -o-perspective-origin-x: 50%;
-    -o-perspective-origin-y: 50%;      
+    -o-perspective-origin-y: 50%;
     perspective: 1200px;
     perspective-origin-x: 50%;
-    perspective-origin-y: 50%;     
+    perspective-origin-y: 50%;
 }
 /* fade */
 .owl-fade-out {
@@ -5433,4 +5489,3 @@ max-width:100%;
         -webkit-text-size-adjust: none;
     }
 }
-      

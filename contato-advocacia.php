@@ -36,8 +36,8 @@
 	<body class="page">
 	<?php require_once "header.php"?>
 		<main role="main">
-			<div id="intro-wrap" style="margin-top: 110px;height: 19.333em;">
-				<div id="intro" class="preload darken more-button">					
+			<div id="intro-wrap" class="intro-wrap-contato">
+				<div id="intro" class="preload darken more-button ">					
 	<?php require_once "mapa.php" ?>					
 				</div><!-- intro -->
 			</div><!-- intro-wrap -->
@@ -51,7 +51,7 @@
 								<span class="pre-input"><i class="icon icon-user"></i></span>
 								<input class="name plain buffer" type="text" name="nome" placeholder="Nome" required="">
 								<span class="pre-input"><i class="icon icon-phone-two"></i></span>
-								<input class="email plain buffer" type="tel" name="celular" placeholder="Celular" placeholder="(00)0.0000.0000" maxlength="13" required="">
+								<input class="email plain buffer" type="tel" id="tel" name="celular" placeholder="Celular" oninput="aplicarMascaraTelefone(this)" maxlength="16" required="">
 								<span class="pre-input"><i class="icon icon-email"></i></span>
 								<input class="email plain buffer" type="email" name="email" placeholder="Email" required="">
 								<textarea class="plain buffer" name="mensagem" placeholder="Como podemos lhe ajudar?"></textarea>

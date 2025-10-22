@@ -5,10 +5,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <header role="banner" class="light">
 <div class="row">
 <div class="nav-inner row-content buffer-left buffer-right even clear-after" style="padding-right:2%;">
-<div id="brand">
-<!--<img src="img/logo.png" alt="logo">--><a href="index.php"><img src="img/alberione-advocacia.png" alt=""></a>
+<div id="brand" class="logo">
+<!--<img src="img/logo.png" alt="logo">--><a href="index.php"><img src="img/alberione-advocacia.png" alt="logo Alberione Advogados"></a>
 </div>
-<a id="menu-toggle" href="#"><i class="fa fa-bars fa-lg"></i></a>
+<a id="menu-toggle" href="#"><i class="fa fa-bars fa-lg fa-logo"></i></a>
 <nav>
 <ul class="reset" role="navigation">
 <li class="menu-item"><a href="index.php">Home</a></li>

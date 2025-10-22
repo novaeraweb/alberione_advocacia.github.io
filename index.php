@@ -100,11 +100,10 @@ position: relative;
       </div> -->
 	<?php require_once "header.php"  ?>
 		<main role="main"><?php  require_once "alerta.php" ?>
-			<div id="intro-wrap" style="min-height: 770px;">
+			<div id="intro-wrap" class="banner-home">
 				<div id="intro" class="preload" data-autoplay="5000" data-navigation="true" data-pagination="true" data-transition="fadeUp">					
-				<div class="intro-item" style="min-height: 600px;">
-				<img src="img/advogado-tributarista-botucatu.jpg" alt="" class="">
-<!--  				<video poster="img/banner-cel.jpg" id="bgvid" playsinline autoplay muted loop>
+				<div class="intro-item img-banner-home">
+				<!--  				<video poster="img/banner-cel.jpg" id="bgvid" playsinline autoplay muted loop>
  						<source src="video/video-celular.webm" type="video/webm" onerror="fallback(parentNode)">
 						<source src="video/video-celular.mp4" type="video/mp4">
 				</video> 
@@ -144,7 +143,7 @@ position: relative;
 					</div>	
 				</section>																
 <section class="row section call-to-action">
-<div class="row-content buffer even animation" style="padding-right:0;">
+<div class="row-content buffer even animation">
 <p><strong>Como podemos auxiliar?</strong></p>
 <p>Possuímos equipes preparada para auxilio na busca de seus direitos!<br>Profissionais das áreas trabalhista, previdenciária, tributária e em direito público, atendendo pessoas físicas e jurídicas!</p><br><br>
 <a class="button red" href="contato-advocacia.php">Entre em contato</a>
