@@ -55,7 +55,7 @@
 					<div class="row-content buffer even clear-after">	
 						<div class="column six">
 							<h2>Alberione Araújo da Silva<br><span style="font-size:0.5em;color:#333">| Advogado</span></h2>
-							<p style="text-align:justify;">Graduado em Direito pela Faculdade de Direito de Bauru (2008). Especialista em Direito do Trabalho e Processo do Trabalho pela Escola Superior de Advocacia. Graduado em Ciências Contábeis (UNIP). Pós graduando em Direito Tributário USP. Experiência Direito Tributário e Trabalhista.</p>
+							<p style="text-align:justify;">Graduado em Direito pela Faculdade de Direito de Bauru (2008). Ex-Procurador Municipal (Botucatu/SP). Especialista em Direito do Trabalho e Processo do Trabalho pela Escola Superior de Advocacia. Professor Universitário Graduado em Ciências Contábeis (UNIP). Pós graduando em Direito Tributário USP. Experiência Direito Tributário e Trabalhista.</p>
 							<p><em><a href="mailto:consultoria@alberione.com.br" target="_blank">consultoria@alberione.com.br</a></em></p>
 						</div>
 						<div class="side-mockup right-mockup animation">
@@ -64,7 +64,7 @@
 					</div>	
 				</section>
 				<section class="row section call-to-action">
-					<div class="row-content buffer even animation" style="padding-right:0;">
+					<div class="row-content buffer even animation">
 						<p><strong>Procurando profissionais experientes?</strong></p><br><br>
 						<a class="button red" href="contato-advocacia.php">Entre em contato</a>
 					</div>

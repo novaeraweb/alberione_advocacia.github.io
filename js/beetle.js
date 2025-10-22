@@ -2039,3 +2039,41 @@ jQuery(document).ready(function ($) {
 
 
 });
+
+
+/* Mascara e Validação de Telefone */
+
+function aplicarMascaraTelefone(input) {
+    let valorNumerico = input.value.replace(/\D/g, '');
+    let valorFormatado = '';
+    if (valorNumerico.length > 0) {
+        valorFormatado = '(' + valorNumerico.substring(0, 2);
+    }
+    if (valorNumerico.length > 2) {
+        valorFormatado += ') ' + valorNumerico.substring(2, 3);
+    }
+    if (valorNumerico.length > 3) {
+        valorFormatado += '.' + valorNumerico.substring(3, 7);
+    }
+    if (valorNumerico.length > 7) {
+        valorFormatado += '.' + valorNumerico.substring(7, 11);
+    }
+    input.value = valorFormatado;
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('contact-form');
+    if (form) {
+        form.addEventListener('submit', function(event) {
+            const inputElement = document.getElementById('tel');
+            const valorFormatado = inputElement.value;
+            const valorLimpo = valorFormatado.replace(/\D/g, '');
+            if (valorLimpo.length !== 11) {
+                event.preventDefault(); 
+                alert('O campo Telefone está incompleto. Digite os 11 dígitos (DDD + 9.XXXX-XXXX).');
+                inputElement.focus();
+                document.getElementById('tel').value = '';
+            }
+        });
+    }
+});

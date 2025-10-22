@@ -66,7 +66,7 @@
 			<div id="main">
 				<section class="row section call-to-action">
 					<div class="row-content buffer even">
-						<p style="text-align: justify;">Com mais de 12 anos de experiência no mercado jurídico, o escritório Alberione Advogados tem como missão oferecer um atendimento ético, eficiente e personalizado, buscando sempre ser referência na prestação de serviços jurídicos na área de Direito Tributário.</p>
+						<p style="text-align: justify;">Com mais de 16 anos de experiência no mercado jurídico, o escritório Alberione Advogados tem como missão oferecer um atendimento ético, eficiente e personalizado, buscando sempre ser referência na prestação de serviços jurídicos na área de Direito Tributário.</p>
 
 						<p style="text-align: justify;">Nosso trabalho é pautado na excelência técnica e no compromisso com os resultados. Atuamos com profundidade na análise de cada caso, buscando soluções eficazes e seguras para pessoas físicas e jurídicas, sempre com foco na prevenção de litígios e na defesa dos interesses de nossos clientes.</p>
 
@@ -75,7 +75,7 @@
 				</section>															
 
 				<section class="row section call-to-action">
-<div class="row-content buffer even animation" style="padding-right:0;">
+<div class="row-content buffer even animation">
 						<p><strong>Procurando um Advogado especialista em Direito Tributário?</strong></p><br><br>
 						<a class="button red" href="contato-advocacia.php">Entre em contato</a>
 					</div>

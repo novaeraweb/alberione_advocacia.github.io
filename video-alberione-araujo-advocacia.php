@@ -70,8 +70,8 @@
 	<section class="videos-youtube">
 		<iframe
 			width="100%"
-			height="100%"
-			src="https://www.youtube-nocookie.com/embed/videoseries?list=UUHt6Zkkg5zMKvrL2Zi3hXTg&rel=0"
+			height="315"
+			src="https://www.youtube-nocookie.com/embed/videoseries?list=UUHt6Zkkg5zMKvrL2Zi3hXTg&rel=0&mute=1&autoplay=1&loop=1"
 			frameborder="0"
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 			allowfullscreen></iframe>
