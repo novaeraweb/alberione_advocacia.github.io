@@ -145,7 +145,7 @@ position: relative;
 <section class="row section call-to-action">
 <div class="row-content buffer even animation">
 <p><strong>Como podemos auxiliar?</strong></p>
-<p>Possuímos equipes preparada para auxilio na busca de seus direitos!<br>Profissionais das áreas trabalhista, previdenciária, tributária e em direito público, atendendo pessoas físicas e jurídicas!</p><br><br>
+<p>Possuímos equipe preparada para auxílio na busca de seus direitos!<br>Profissionais das áreas Tributária e Direito Público, atendendo pessoas físicas e jurídicas!</p><br><br>
 <a class="button red" href="contato-advocacia.php">Entre em contato</a>
 </div>
 </section>		
