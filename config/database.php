@@ -4,15 +4,23 @@
  * config/database.php
  */
 
-class Database {
-    private static $instance = null;
+declare(strict_types=1);
 
-    public static function getInstance() {
+class Database
+{
+    private static ?PDO $instance = null;
+
+    public static function getInstance(): PDO
+    {
         if (self::$instance === null) {
             $dsn = sprintf(
                 'mysql:host=%s;port=%s;dbname=%s;charset=%s',
-                DB_HOST, DB_PORT, DB_NAME, DB_CHARSET
+                DB_HOST,
+                DB_PORT,
+                DB_NAME,
+                DB_CHARSET
             );
+
             try {
                 self::$instance = new PDO($dsn, DB_USER, DB_PASS, [
                     PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
@@ -24,17 +32,21 @@ class Database {
                 error_log('[DB ERROR] ' . $e->getMessage());
                 http_response_code(503);
 
-                $is_local = in_array($_SERVER['SERVER_NAME'] ?? '', ['localhost', '127.0.0.1', '::1'])
+                $is_local = in_array($_SERVER['SERVER_NAME'] ?? '', ['localhost', '127.0.0.1', '::1'], true)
                     || strpos($_SERVER['HTTP_HOST'] ?? '', 'localhost') !== false;
 
-                if ($is_local) {
-                    die('Erro de conexão com o banco de dados: ' . htmlspecialchars($e->getMessage(), ENT_QUOTES, 'UTF-8')
-                        . '<br><br>Verifique DB_NAME, DB_USER, DB_PASS e DB_PORT em config/config.php. No MAMP, normalmente DB_PORT=8889 e DB_PASS=root.');
+                if ($is_local || (defined('APP_DEBUG') && APP_DEBUG === true)) {
+                    die(
+                        'Erro de conexão com o banco de dados: ' .
+                        htmlspecialchars($e->getMessage(), ENT_QUOTES, 'UTF-8') .
+                        '<br><br>Verifique DB_HOST, DB_PORT, DB_NAME, DB_USER e DB_PASS em config/config.php.'
+                    );
                 }
 
                 die('Serviço temporariamente indisponível.');
             }
         }
+
         return self::$instance;
     }
 }
@@ -42,6 +54,7 @@ class Database {
 /**
  * Atalho global para obter a instância do PDO
  */
-function db() {
+function db(): PDO
+{
     return Database::getInstance();
 }
