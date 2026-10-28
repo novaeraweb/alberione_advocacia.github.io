@@ -149,13 +149,15 @@ Via cPanel → MySQL Databases:
 3. Importe `database/alberione.sql`
 
 #### 3. Configurar credenciais
-Edite `config/config.php`, seção "Banco de dados":
-```php
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'seu_banco');
-define('DB_USER', 'seu_usuario');
-define('DB_PASS', 'sua_senha');
-```
+Na Umbler, o deploy do GitHub usa a pasta `/public/`. Mantenha as credenciais em
+`/alberione-database.php`, fora dessa pasta, para preservá-las entre publicações.
+Copie o modelo `config/production.example.php` para esse caminho pelo gerenciador
+de arquivos da hospedagem e preencha os dados de produção somente no servidor.
+
+`config/config.php` carrega primeiro esse arquivo privado. Na ausência dele, usa
+as variáveis de ambiente `DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_USER` e `DB_PASS`.
+A senha de produção não tem valor padrão no código. Confirme a conexão antes de
+ativar o deploy automático em uma nova hospedagem.
 
 #### 4. Ativar HTTPS no .htaccess
 Abra `.htaccess` e descomente o bloco de HTTPS:

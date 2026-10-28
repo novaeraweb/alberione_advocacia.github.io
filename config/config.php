@@ -83,28 +83,29 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-// Banco de dados
-// Local: MAMP/localhost
-// Produção: servidor alberione.com.br
+// Banco de dados: configuração privada fora de public/ sobrevive ao deploy do Git.
+// Na Umbler, crie ../alberione-database.php em relação à raiz public/.
+$private_db_path = dirname(__DIR__, 2) . '/alberione-database.php';
+$private_db = (!$is_local && is_readable($private_db_path)) ? require $private_db_path : [];
+$private_db = is_array($private_db) ? $private_db : [];
 $is_mamp_local = $is_local && strpos($_SERVER['HTTP_HOST'] ?? '', ':8888') !== false;
 
-if ($is_local) {
-    define('DB_HOST', getenv('DB_HOST') ?: 'localhost');
-    define('DB_PORT', getenv('DB_PORT') ?: ($is_mamp_local ? '8889' : '3306'));
-    define('DB_NAME', getenv('DB_NAME') ?: 'alberione_site');
-    define('DB_USER', getenv('DB_USER') ?: 'root');
-    define('DB_PASS', getenv('DB_PASS') !== false ? getenv('DB_PASS') : ($is_mamp_local ? 'root' : ''));
-} else {
-    define('DB_HOST', getenv('DB_HOST') ?: 'localhost');
-    define('DB_PORT', getenv('DB_PORT') ?: '3306');
+$db_defaults = [
+    'DB_HOST' => $is_local ? 'localhost' : 'mysql746.umbler.com',
+    'DB_PORT' => $is_mamp_local ? '8889' : '3306',
+    'DB_NAME' => 'alberione_site',
+    'DB_USER' => $is_local ? 'root' : 'alberione_adv',
+    'DB_PASS' => $is_mamp_local ? 'root' : '',
+];
 
-    // IMPORTANTE: se no painel da hospedagem o banco tiver outro nome, altere esta linha.
-    define('DB_NAME', getenv('DB_NAME') ?: 'alberione_site');
-
-    // Dados exclusivos de produção
-    define('DB_USER', getenv('DB_USER') ?: 'alberione_adv');
-    define('DB_PASS', getenv('DB_PASS') !== false ? getenv('DB_PASS') : ',7uxF||6gnX6v');
+foreach ($db_defaults as $key => $default) {
+    $environment_value = getenv($key);
+    $value = array_key_exists($key, $private_db)
+        ? $private_db[$key]
+        : ($environment_value !== false ? $environment_value : $default);
+    define($key, (string) $value);
 }
+unset($private_db_path, $private_db, $db_defaults, $key, $default, $environment_value, $value);
 
 define('DB_CHARSET', 'utf8mb4');
 
