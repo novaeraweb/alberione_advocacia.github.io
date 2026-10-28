@@ -460,7 +460,8 @@ function increment_views(int $post_id): void {
 }
 
 function slug_exists(string $slug, int $exclude_id = 0): bool {
-    $stmt = db()->prepare("SELECT COUNT(*) FROM posts WHERE slug = ? AND id != ? AND excluido_em IS NULL");
+    // A chave única de slug também inclui posts excluídos logicamente.
+    $stmt = db()->prepare("SELECT COUNT(*) FROM posts WHERE slug = ? AND id != ?");
     $stmt->execute([$slug, $exclude_id]);
     return (int)$stmt->fetchColumn() > 0;
 }
