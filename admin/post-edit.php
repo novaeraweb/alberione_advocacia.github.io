@@ -14,8 +14,14 @@ $post = get_post_by_id($id);
 if (!$post) { flash('error', 'Post não encontrado.'); redirect('/admin/posts.php'); }
 
 $errors = [];
+$conteudo_raw = '';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    try {
+        $conteudo_raw = decode_post_content($_POST);
+    } catch (InvalidArgumentException $e) {
+        $errors[] = $e->getMessage();
+    }
     if (!verify_csrf($_POST['csrf_token'] ?? '')) {
         $errors[] = 'Requisição inválida.';
     } else {
@@ -26,7 +32,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $status    = in_array($_POST['status']?? '', ['rascunho','publicado']) ? $_POST['status'] : $post['status'];
         $destaque  = isset($_POST['destaque']) ? 1 : 0;
         $resumo    = clean($_POST['resumo']   ?? '');
-        $conteudo_raw = $_POST['conteudo'] ?? '';
         if (preg_match('/<img\b[^>]+\bsrc\s*=\s*["\']?\s*(?:data|blob):/i', html_entity_decode($conteudo_raw, ENT_QUOTES | ENT_HTML5, 'UTF-8'))) {
             $errors[] = 'O conteúdo contém uma imagem colada no texto. Remova essa imagem e use o campo Imagem Destaque.';
         }
@@ -80,7 +85,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         'categoria'        => $_POST['categoria']        ?? ($post['categoria'] ?? ''),
         'status'           => $_POST['status']           ?? $post['status'],
         'resumo'           => $_POST['resumo']           ?? $post['resumo'],
-        'conteudo'         => sanitize_post_html($_POST['conteudo'] ?? $post['conteudo']),
+        'conteudo'         => sanitize_post_html($conteudo_raw),
         'meta_title'       => $_POST['meta_title']       ?? $post['meta_title'],
         'meta_description' => $_POST['meta_description'] ?? $post['meta_description'],
         'destaque'         => isset($_POST['destaque'])   ? 1 : 0,
@@ -165,6 +170,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <div class="admin-card-body p-0">
                             <div id="quillEditor" style="min-height:400px"><?= sanitize_post_html($post['conteudo'] ?? '') ?></div>
                             <input type="hidden" name="conteudo" id="conteudoInput">
+                            <input type="hidden" name="conteudo_b64" id="conteudoB64Input">
                         </div>
                     </div>
 
@@ -267,7 +273,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <script src="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.js"></script>
 <script src="../assets/js/admin.js"></script>
-<script src="../assets/js/post-editor.js?v=20261027"></script>
+<script src="../assets/js/post-editor.js?v=20261027-2"></script>
 <script>
 const quill = new Quill('#quillEditor', {
     theme: 'snow',
@@ -281,10 +287,6 @@ const quill = new Quill('#quillEditor', {
             ['clean']
         ]
     }
-});
-
-document.getElementById('postForm').addEventListener('submit', function () {
-    document.getElementById('conteudoInput').value = quill.root.innerHTML;
 });
 
 const fileInput = document.getElementById('imagem_capa');

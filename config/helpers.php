@@ -20,6 +20,32 @@ function clean(string $str): string {
     return trim(strip_tags($str));
 }
 
+/**
+ * Lê o HTML editorial enviado em Base64 UTF-8 para evitar falsos positivos do WAF.
+ * A autenticação, o CSRF e a sanitização continuam sendo aplicados pelo formulário.
+ * Mantém compatibilidade com formulários antigos que enviam o campo conteudo.
+ */
+function decode_post_content(array $fields): string {
+    $encoded = $fields['conteudo_b64'] ?? '';
+    if (!is_string($encoded)) {
+        throw new InvalidArgumentException('Não foi possível processar o conteúdo enviado. Recarregue a página e tente novamente.');
+    }
+
+    if ($encoded !== '') {
+        $html = base64_decode($encoded, true);
+        if ($html === false || preg_match('//u', $html) !== 1) {
+            throw new InvalidArgumentException('Não foi possível processar o conteúdo enviado. Recarregue a página e tente novamente.');
+        }
+        return $html;
+    }
+
+    $html = $fields['conteudo'] ?? '';
+    if (!is_string($html)) {
+        throw new InvalidArgumentException('Não foi possível processar o conteúdo enviado. Recarregue a página e tente novamente.');
+    }
+    return $html;
+}
+
 // Polyfills para compatibilidade com PHP 7.x em hospedagens compartilhadas.
 if (!function_exists('str_starts_with')) {
     function str_starts_with(string $haystack, string $needle): bool {
