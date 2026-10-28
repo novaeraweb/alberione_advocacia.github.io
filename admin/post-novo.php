@@ -21,7 +21,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $status   = in_array($_POST['status']?? '', ['rascunho','publicado']) ? $_POST['status'] : 'rascunho';
         $destaque = isset($_POST['destaque']) ? 1 : 0;
         $resumo   = clean($_POST['resumo']   ?? '');
-        $conteudo = sanitize_post_html($_POST['conteudo'] ?? ''); // HTML do editor sanitizado antes de salvar
+        $conteudo_raw = $_POST['conteudo'] ?? '';
+        if (preg_match('/<img\b[^>]+\bsrc\s*=\s*["\']?\s*(?:data|blob):/i', html_entity_decode($conteudo_raw, ENT_QUOTES | ENT_HTML5, 'UTF-8'))) {
+            $errors[] = 'O conteúdo contém uma imagem colada no texto. Remova essa imagem e use o campo Imagem Destaque.';
+        }
+        $conteudo = sanitize_post_html($conteudo_raw);
         $meta_title= clean($_POST['meta_title']   ?? '');
         $meta_desc = clean($_POST['meta_description'] ?? '');
 
@@ -146,6 +150,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <!-- Conteúdo -->
                     <div class="admin-card">
                         <div class="admin-card-header"><h3>Conteúdo <span class="req">*</span></h3></div>
+                        <div class="admin-card-body"><small>Para enviar arquivos de imagem, use o campo Imagem Destaque. Evite colar imagens diretamente no texto.</small></div>
                         <div class="admin-card-body p-0">
                             <div id="quillEditor" style="min-height:400px"><?= sanitize_post_html($_POST['conteudo'] ?? '') ?></div>
                             <input type="hidden" name="conteudo" id="conteudoInput">
@@ -244,6 +249,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <script src="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.js"></script>
 <script src="../assets/js/admin.js"></script>
+<script src="../assets/js/post-editor.js?v=20261027"></script>
 <script>
 // Init Quill
 const quill = new Quill('#quillEditor', {
@@ -254,7 +260,7 @@ const quill = new Quill('#quillEditor', {
             [{ header: [2, 3, false] }],
             ['bold','italic','underline','strike'],
             [{ list: 'ordered' }, { list: 'bullet' }],
-            ['blockquote','link','image'],
+            ['blockquote','link'],
             [{ align: [] }],
             ['clean']
         ]
